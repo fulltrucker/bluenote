@@ -1,0 +1,288 @@
+/*
+Template Name: Me
+Author: One Page Love
+Author URI: https://onepagelove.com
+Template URI: https://onepagelove.com/me
+Description: Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo, bio and icons.
+Version: 0.2.2
+*/
+/* -- CSS Reset -- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900i");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  margin: 0;
+}
+
+img.alignright {
+  float: right;
+}
+img.alignleft {
+  float: left;
+}
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  background-color: #FFFFFF;
+  border-style: none;
+}
+
+body,
+p,
+a,
+a:hover {
+  color: #000000;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  box-shadow: none;
+}
+
+/* -- Content -- */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+html {
+  background-color: #012878;
+}
+
+body.page-template-page-fullsingle-me {
+  height: 100vh;
+  background-color: #012878;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 39px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  background-image: url("../images/homepage-horns-blue-pink-1660.jpg");
+  background-position: right top;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 800px) {
+  body.page-template-page-fullsingle-me {
+    background-size: contain;
+  }
+}
+body.page-template-page-fullsingle-me p {
+  margin-bottom: 7px;
+  margin-right: 40%;
+  color: #FFFFFF;
+}
+@media (max-width: 800px) {
+  body.page-template-page-fullsingle-me p {
+    font-size: 25px;
+    line-height: 31px;
+    margin-right: 0px;
+  }
+}
+body.page-template-page-fullsingle-me h1 {
+  font-weight: 900;
+  font-size: 97px;
+  line-height: 61px;
+}
+@media (max-width: 800px) {
+  body.page-template-page-fullsingle-me h1 {
+    font-size: 75px;
+  }
+}
+
+.fs-me {
+  padding: 0vh 10vw;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1000;
+}
+@media (max-width: 500px) {
+  .fs-me {
+    padding: 0vh 5vw;
+    text-align: center;
+  }
+}
+.fs-me .me-content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .fs-me .me-content {
+    height: unset;
+  }
+}
+
+.logo {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-self: left;
+  animation: fadein 2s;
+}
+@media (max-width: 500px) {
+  .logo {
+    align-self: center;
+  }
+}
+.logo img {
+  max-width: 165px;
+  height: auto;
+}
+
+.bio {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  animation: fadein 4s;
+  letter-spacing: -1px;
+}
+@media (max-width: 800px) {
+  .bio {
+    max-width: none;
+    margin-top: 40%;
+  }
+}
+.bio a {
+  color: #EE369E;
+  transition: 1s;
+}
+.bio a:hover {
+  color: #FFFFFF;
+  transition: 0.1s;
+}
+
+.network {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  animation: fadein 6s;
+  margin-top: auto;
+}
+.network ul {
+  animation: fadein 6s;
+  margin-top: auto;
+}
+.network ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+.network ul li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.network ul li a .svg-icon {
+  padding: 4px;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  display: block;
+}
+.network ul li a .svg-icon path,
+.network ul li a .svg-icon polygon,
+.network ul li a .svg-icon rect {
+  fill: #EE369E;
+  transition: 1s;
+}
+.network ul li a .svg-icon circle {
+  stroke: #EE369E;
+  stroke-width: 1;
+}
+.network ul li a:hover .svg-icon path,
+.network ul li a:hover .svg-icon polygon,
+.network ul li a:hover .svg-icon rect {
+  fill: #FFFFFF;
+  transition: 0.1s;
+}
+
+.credit {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0;
+  animation: fadein 8s;
+}
+.credit p.copyright {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.credit p.copyright a {
+  color: #FFFFFF;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 144%;
+}
+
+/*# sourceMappingURL=me.css.map */

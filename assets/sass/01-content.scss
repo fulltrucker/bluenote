@@ -1,0 +1,278 @@
+//-------------------------------------------------------------------------------
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
+
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Colors
+$color-background		: #012878; // Darker Blue
+$color-text				: #FFFFFF;
+$color-text-link		: #EE369E;
+$color-text-link-hover	: #FFFFFF;
+$color-icon				: #EE369E; // Dark Pink
+$color-icon-hover		: #FFFFFF;
+
+// Breakpoints
+$bp-smallish 			: 1200px;
+$bp-tablet 				: 800px;
+$bp-mobile 				: 500px;
+
+// Images
+$image-background		: url('../images/homepage-horns-blue-pink-1660.jpg');
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+html {
+	background-color: $color-background; 
+}
+body.page-template-page-fullsingle-me {
+	height: 100vh;
+	background-color: $color-background; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 39px;
+	letter-spacing: -0.5px;
+	color: $color-text;
+	background-image: $image-background; 
+	background-position: right top;
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+
+	@media (max-width: $bp-tablet ) {
+	background-size: contain;
+	}	
+
+	//-------------------------------------------------------------------------------
+	// Site Origin Page Builder Global Styles
+	//-------------------------------------------------------------------------------
+
+	p { // used in bio
+		margin-bottom: 7px;
+    margin-right: 40%;
+		color: $color-text;
+
+		@media (max-width: $bp-tablet ) {
+			font-size: 25px;
+			line-height: 31px;
+      margin-right: 0px;
+		}	
+
+	}
+
+	h1 { // used in bio
+  	font-weight: 900;
+  	font-size: 97px;
+		line-height: 61px;
+
+		@media (max-width: $bp-tablet ) {
+			font-size: 75px;
+// 			line-height: 81px;
+		}	
+
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Sections
+//-------------------------------------------------------------------------------
+
+.fs-me {
+	padding: 0vh 10vw;
+	overflow:hidden;
+	position: absolute;
+	z-index: 1000;
+
+	@media (max-width: $bp-mobile ) {
+		padding: 0vh 5vw;
+		text-align: center;
+	}	
+
+  	.me-content {
+  		height: 90vh;
+  		display: flex;
+  		flex-direction: column;
+
+		@media (max-width: $bp-tablet ) {
+			height: unset; // as padding now 5vh 5vw
+		}	
+
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Logo
+//-------------------------------------------------------------------------------
+
+.logo { 
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column;
+		align-self: left;
+		animation: fadein 2s;
+
+		@media (max-width: $bp-mobile ) {
+			align-self: center;
+		}
+
+	img {
+		max-width: 165px;
+		height: auto;
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Bio
+//-------------------------------------------------------------------------------
+
+.bio { 
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	animation: fadein 4s;
+	letter-spacing: -1px;
+// 	max-width: 66%;
+
+	@media (max-width: $bp-tablet ) {
+		max-width: none;
+    margin-top: 40%;
+	}
+
+	a {
+		color: $color-text-link;
+		transition: 1s;
+
+		&:hover {
+			color: $color-text-link-hover;
+			transition: 0.1s;
+		}
+
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Network
+//-------------------------------------------------------------------------------
+
+.network { 
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	animation: fadein 6s;
+	margin-top: auto;
+
+	ul {
+		animation: fadein 6s;
+		margin-top: auto; // sit at bottom of DIV
+
+		li {
+			display: inline-block;
+			margin-right: 8px;
+
+			a {
+				display: inline-block;
+				width: 30px;
+				height: 30px; 
+				cursor: pointer;
+
+				//-------------------------------------------------------------------------------
+				// SVG Icons - svgicons.sparkk.fr
+				//-------------------------------------------------------------------------------
+
+				.svg-icon {
+					padding: 4px;
+					width: 22px;
+					height: 22px; 
+					margin: 0;
+					display: block;
+				}
+
+				.svg-icon path,
+				.svg-icon polygon,
+				.svg-icon rect {
+					fill: $color-icon;
+					transition: 1s;
+				}
+
+				.svg-icon circle {
+					stroke: $color-icon;
+					stroke-width: 1;
+				}
+
+			}
+
+			a:hover {
+				.svg-icon path,
+				.svg-icon polygon,
+				.svg-icon rect {
+					fill: $color-icon-hover;
+					transition: 0.1s;
+				}
+
+			}
+
+		}
+
+	}
+
+}	
+
+//-------------------------------------------------------------------------------
+// Credit
+//-------------------------------------------------------------------------------
+
+//	To edit this credit you can remove the CCA 3.0 license for only $5 here: https://onepagelove.com/me 
+//	this really helps contribute towards us developing more templates and means the world to me!
+//	Cheers, Rob (@robhope)
+
+.credit {
+	font-size: 12px; 
+	line-height: 14px;	
+	margin-bottom: 0;
+	animation: fadein 8s;
+
+	p.copyright {
+		font-size: 12px; 
+		line-height: 14px;
+		font-weight: 400;
+		opacity: 0.4;
+
+		a { 
+			color: $color-text;
+		}
+
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Big Font
+//-------------------------------------------------------------------------------
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 144%;
+}
