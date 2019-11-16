@@ -7,8 +7,17 @@ Description: Me is a slick, personal layout for any individual wanting a minimal
 Version: 0.2.2
 */
 
-/* -- CSS Reset -- */
-@import "00-reset";
+/* -- Common -- */
+@import "00-common";
 
-/* -- Content -- */
-@import "01-content";
+/* -- Main Section -- */
+@import "01-main";
+
+/* -- About Section -- */
+@import "02-about";
+
+/* -- Work Section -- */
+@import "03-work";
+
+/* -- Contact Section -- */
+@import "04-contact";
