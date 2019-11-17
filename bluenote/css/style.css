@@ -374,7 +374,6 @@ nav.navbar.bootsnav .navbar-toggle i {
   }
 }
 #main .ruckus {
-  margin: 0;
   position: absolute;
   top: 63%;
   -ms-transform: translateY(-50%);
@@ -384,14 +383,15 @@ nav.navbar.bootsnav .navbar-toggle i {
   color: #FFF;
   font-size: 31px;
   line-height: 39px;
-  margin-right: 40%;
-  margin-bottom: 7px;
+  margin-right: 48%;
+  margin-bottom: 0px;
 }
 #main .ruckus .bio h1 {
   color: #FFF;
   font-weight: 900;
   font-size: 97px;
   line-height: 61px;
+  margin-top: 0px;
 }
 @media (max-width: 800px) {
   #main .ruckus .bio h1 {
