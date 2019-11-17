@@ -379,7 +379,7 @@ nav.navbar.bootsnav .navbar-toggle i {
   }
 }
 #main .ruckus {
-  margin-top: 40%;
+  margin-top: 40vh;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -399,6 +399,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 @media (max-width: 768px) {
   #main .ruckus .bio p {
+    font-size: 25px;
+    line-height: 31px;
     margin-right: inherit;
     text-align: center;
   }
@@ -410,17 +412,25 @@ nav.navbar.bootsnav .navbar-toggle i {
   line-height: 61px;
   margin-top: 0px;
 }
+@media (max-width: 1199px) {
+  #main .ruckus .bio h1 {
+    font-size: 79px;
+  }
+}
 @media (max-width: 768px) {
   #main .ruckus .bio h1 {
     font-size: 67px;
     text-align: center;
   }
 }
-#main .social {
-  margin: 43px 0;
+@media (max-width: 374px) {
+  #main .ruckus .bio h1 {
+    font-size: 53px;
+  }
 }
 @media (max-width: 768px) {
   #main .social {
+    margin-top: 43px;
     text-align: center;
   }
 }
@@ -432,6 +442,12 @@ nav.navbar.bootsnav .navbar-toggle i {
   display: inline-block;
   font-size: 31px;
   padding-right: 23px;
+}
+@media (max-width: 374px) {
+  #main .social ul li {
+    font-size: 27px;
+    padding-right: 17px;
+  }
 }
 #main .social ul li a:hover {
   color: #FFF;
@@ -501,6 +517,11 @@ nav.navbar.bootsnav .navbar-toggle i {
 #contact .social {
   margin: 33px 0px;
 }
+@media (max-width: 768px) {
+  #contact .social {
+    text-align: center;
+  }
+}
 #contact .social ul {
   margin: 0px;
   margin-top: auto;
@@ -509,6 +530,12 @@ nav.navbar.bootsnav .navbar-toggle i {
   display: inline-block;
   font-size: 31px;
   padding-right: 23px;
+}
+@media (max-width: 374px) {
+  #contact .social ul li {
+    font-size: 27px;
+    padding-right: 17px;
+  }
 }
 #contact .social ul li a:hover {
   color: #FFF;
