@@ -246,12 +246,40 @@
 		<section id="contact" class="section">
 			<div class="container">
 				<div class="row">
+					<div class="col-md-5">
+        		<svg width="900" height="900" viewBox="0 0 900 900" class="duotone-filters" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="darkbluepink">
+                  <feColorMatrix type="matrix" result="grayscale"
+                    values="1 0 0 0 0
+                            1 0 0 0 0
+                            1 0 0 0 0
+                            0 0 0 1 0" >
+                  </feColorMatrix>
+                  <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
+                    <feFuncR type="table" tableValues="0.00392156862745 0.93333333333333"></feFuncR>
+                    <feFuncG type="table" tableValues="0.15686274509804 0.21176470588235"></feFuncG>
+                    <feFuncB type="table" tableValues="0.47058823529412 0.61960784313725"></feFuncB>
+                    <feFuncA type="table" tableValues="0 1"></feFuncA>
+                  </feComponentTransfer>
+                </filter>
+                <clipPath id="circle" clipPathUnits="userSpaceOnUse">
+                    <circle cx="450" cy="450" r="450"/>
+                </clipPath>
+              </defs>
+              <image width="900" height="900" filter="url(#darkbluepink)" clip-path="url(#circle)" xlink:href="bluenote/images/evan-saucy-portrait.jpg"/>
+            </svg>
+					</div>
+					<div class="col-md-1"></div>
 					<div class="col-md-6">
   					<h1>Get in touch.</h1>
-      			<p>I'm always curious about new projects that I can get excited about, so don't hesitate to reach out with your latest hair-brained scheme or wacky concept.</p>
+      			<p>I'm always curious to explore new projects that I can get excited about, so don't hesitate to reach out with your latest hair-brained scheme or wacky concept.</p>
       			<p>I'm currently available for freelance projects and full-time employment.</p>
+            <p>&nbsp;</p>
       			<p><strong>Evan Chute</strong><br />
               UX Design & Art Direction</p>
+            <p>&nbsp;</p>
+      			<p>You can find me at any of the internet places linked below. <strong>Pro-tip:</strong> click the envelope icon on the left to send me an email.</p>
         		<div class="social">
         			<ul>
         				<li>
@@ -286,27 +314,6 @@
         				</li>
         			</ul>
         		</div>
-					</div>
-					<div class="col-md-6">
-        		<svg width="900" height="900" viewBox="0 0 900 900" class="duotone-filters" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <filter id="darkbluepink">
-                  <feColorMatrix type="matrix" result="grayscale"
-                    values="1 0 0 0 0
-                            1 0 0 0 0
-                            1 0 0 0 0
-                            0 0 0 1 0" >
-                  </feColorMatrix>
-                  <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
-                    <feFuncR type="table" tableValues="0.00392156862745 0.93333333333333"></feFuncR>
-                    <feFuncG type="table" tableValues="0.15686274509804 0.21176470588235"></feFuncG>
-                    <feFuncB type="table" tableValues="0.47058823529412 0.61960784313725"></feFuncB>
-                    <feFuncA type="table" tableValues="0 1"></feFuncA>
-                  </feComponentTransfer>
-                </filter>
-              </defs>
-              <image width="900" height="900" filter="url(#darkbluepink)" xlink:href="bluenote/images/evan-saucy-portrait.jpg"/>
-            </svg>
 					</div>
 				</div>
 			</div>
