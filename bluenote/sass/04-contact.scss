@@ -26,5 +26,10 @@
   	max-width: 100%;
   	height: auto;
 	}
+	
+	.small, small {
+  	color: $dark-text;
+    font-size: 80%;
+  }
 
 }

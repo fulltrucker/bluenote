@@ -483,5 +483,9 @@ nav.navbar.bootsnav .navbar-toggle i {
   max-width: 100%;
   height: auto;
 }
+#contact .small, #contact small {
+  color: #4A4A4A;
+  font-size: 80%;
+}
 
 /*# sourceMappingURL=style.css.map */
