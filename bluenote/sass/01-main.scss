@@ -1,0 +1,79 @@
+#main {
+  background-color: $darker-blue;
+	color: $light-text;
+	
+	.background-image {
+  	background-image: url('../images/homepage-horns-bw-1660.jpg'); 
+      -webkit-filter: url('#darkbluepink');
+      -moz-filter: url('#darkbluepink');
+      -o-filter: url('#darkbluepink');
+      -ms-filter: url('#darkbluepink');
+      filter: url('#darkbluepink');
+      position: absolute;
+  	background-position: right top;
+  	background-size: auto 90%;
+  	background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    	@media (max-width: $bp-tablet ) {
+      	background-size: contain;
+    	}
+  	}
+
+	.ruckus {
+    margin: 0;
+    position: absolute;
+    top: 63%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  	.bio {
+    	p {
+      	color: $light-text;
+      	font-size: 31px;
+      	line-height: 39px;
+      	margin-right: 40%;
+    		margin-bottom: 7px;
+  		}
+    	h1 {
+      	color: $light-text;
+      	font-weight: 900;
+      	font-size: 97px;
+    		line-height: 61px;
+    
+    		@media (max-width: $bp-tablet ) {
+    			font-size: 75px;
+          // line-height: 81px;
+    		}
+  		}  
+  	}
+	}
+
+	.social {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 33px;
+      	
+  	ul {
+			margin: 0px;
+  		margin-top: auto; // sit at bottom of DIV
+  		
+  		li {
+  			display: inline-block;
+        font-size: 31px;
+        padding-right: 23px;
+   			
+  			a:hover {
+  				color: $light-text;
+  			}
+			}			
+  	}  	
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+  	color: $light-text;
+	}
+	
+}

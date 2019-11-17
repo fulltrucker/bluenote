@@ -1,0 +1,21 @@
+#work {
+  background-color: $peach;
+  color: $darker-blue;
+  
+	.background-image {
+  	background-image: url('../images/david-lawnmower.jpg'); 
+      -webkit-filter: url('#peachypink');
+      -moz-filter: url('#peachypink');
+      -o-filter: url('#peachypink');
+      -ms-filter: url('#peachypink');
+      filter: url('#peachypink');
+    position: absolute;
+  	background-position: right bottom;
+  	background-size: contain;
+  	background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  	}
+}
