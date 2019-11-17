@@ -18,23 +18,38 @@
     width: 100%;
     height: 100%;
 
-    	@media (max-width: $bp-tablet ) {
+    	@media (max-width: 1200px) {
+      	background-size: auto 70%;
+    	}
+    	@media (max-width: 768px) {
       	background-size: contain;
     	}
   	}
 
 	.ruckus {
-    position: absolute;
-    top: 63%;
+    //position: absolute;
+    margin-top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    
+    	@media (max-width: 768px) {
+        margin-top: 50%;
+        -ms-transform: inherit;
+        transform: inherit;
+    	}
+
   	.bio {
     	p {
       	color: $light-text;
       	font-size: 31px;
       	line-height: 39px;
-      	margin-right: 48%;
+      	margin-right: 40%;
     		margin-bottom: 0px;
+    		
+    		@media (max-width: 768px) {
+      		margin-right: inherit;
+      		text-align: center;
+    		}
   		}
     	h1 {
       	color: $light-text;
@@ -43,19 +58,24 @@
     		line-height: 61px;
     		margin-top: 0px;
     
-    		@media (max-width: $bp-tablet ) {
-    			font-size: 75px;
-          // line-height: 81px;
+    		@media (max-width: 768px) {
+    			font-size: 67px;
+          //line-height: 81px;
+          text-align: center;
     		}
   		}  
   	}
 	}
 
 	.social {
-    position: absolute;
-    bottom: 0px;
-    margin-bottom: 33px;
+    //position: absolute;
+    //bottom: 0px;
+    margin: 43px 0;
       	
+		@media (max-width: 768px) {
+      text-align: center;
+		}
+
   	ul {
 			margin: 0px;
   		margin-top: auto; // sit at bottom of DIV

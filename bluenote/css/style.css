@@ -151,7 +151,7 @@ nav.navbar.bootsnav ul.nav > li > a {
 
 nav.navbar.bootsnav ul.nav > li > a {
   padding: 12px 20px 11px 20px;
-  margin: 17px;
+  margin: 27px 0px 27px 27px;
   border: 1px solid transparent;
 }
 
@@ -368,23 +368,40 @@ nav.navbar.bootsnav .navbar-toggle i {
   width: 100%;
   height: 100%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
+  #main .background-image {
+    background-size: auto 70%;
+  }
+}
+@media (max-width: 768px) {
   #main .background-image {
     background-size: contain;
   }
 }
 #main .ruckus {
-  position: absolute;
-  top: 63%;
+  margin-top: 40%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+  #main .ruckus {
+    margin-top: 50%;
+    -ms-transform: inherit;
+    transform: inherit;
+  }
 }
 #main .ruckus .bio p {
   color: #FFF;
   font-size: 31px;
   line-height: 39px;
-  margin-right: 48%;
+  margin-right: 40%;
   margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+  #main .ruckus .bio p {
+    margin-right: inherit;
+    text-align: center;
+  }
 }
 #main .ruckus .bio h1 {
   color: #FFF;
@@ -393,15 +410,19 @@ nav.navbar.bootsnav .navbar-toggle i {
   line-height: 61px;
   margin-top: 0px;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   #main .ruckus .bio h1 {
-    font-size: 75px;
+    font-size: 67px;
+    text-align: center;
   }
 }
 #main .social {
-  position: absolute;
-  bottom: 0px;
-  margin-bottom: 33px;
+  margin: 43px 0;
+}
+@media (max-width: 768px) {
+  #main .social {
+    text-align: center;
+  }
 }
 #main .social ul {
   margin: 0px;
@@ -424,7 +445,7 @@ nav.navbar.bootsnav .navbar-toggle i {
   background-color: #FFF;
   color: #4A4A4A;
 }
-#about .background-image {
+#about .speedy-brothers {
   background-image: url("../images/speeding-brothers.jpg");
   background-position: center center;
   background-size: cover;
@@ -434,6 +455,19 @@ nav.navbar.bootsnav .navbar-toggle i {
   left: 0;
   width: 50%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  #about .speedy-brothers {
+    display: none;
+  }
+}
+#about .mobile-speedy-brothers img {
+  display: none;
+}
+@media (max-width: 768px) {
+  #about .mobile-speedy-brothers img {
+    display: inherit;
+  }
 }
 
 /* -- Work Section -- */
