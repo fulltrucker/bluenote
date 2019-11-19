@@ -10,8 +10,8 @@
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i class="fa fa-bars"></i>
 			                </button>
-			                <a class="navbar-brand" href="#main">
-                        <svg class="svg-logo smooth-menu" viewBox="0 0 125 100">
+			                <a class="navbar-brand smooth-menu" href="#main">
+                        <svg class="svg-logo" viewBox="0 0 125 100">
                           <path d="M21.416,32.972c-0.779-0.375-2.084-0.64-3.895-0.797L0,97.889c1.802-0.146,3.22-0.378,4.204-0.706
                           	c1.184-0.395,2.121-1.149,2.811-2.269c0.691-1.117,1.364-2.925,2.022-5.425l13.021-48.923c0.525-2.235,0.789-3.813,0.789-4.734
                           	C22.846,34.386,22.368,33.432,21.416,32.972z"/>
