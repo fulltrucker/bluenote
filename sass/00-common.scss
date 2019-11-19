@@ -152,11 +152,35 @@ html,body {
 nav.navbar.no-background {
 	background: none;
 	border: none;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  @media (min-width: 1024px) {
+      background-color: transparent;
+      border: none;
+  }
+}
+
+nav.navbar.navbar-fixed {
+    position: fixed;
+    display: block;
+    width: 100%;
 }
 
 nav.navbar {
 	background: none;
 	border: none;
+  margin-bottom: 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #fff;
+  border: none;
+  border-bottom: solid 1px #e0e0e0;
+  z-index: 9;
 }
 
 .navbar-brand {
