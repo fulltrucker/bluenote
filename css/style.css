@@ -243,6 +243,11 @@ nav.navbar .navbar-toggle {
   top: 0;
 }
 
+nav.navbar .navbar-toggle:focus,
+nav.navbar .navbar-toggle:hover {
+  background-color: transparent;
+}
+
 nav.navbar .navbar-toggle i {
   color: #EE369E;
   font-size: 40px;
@@ -254,46 +259,49 @@ nav.navbar .navbar-toggle i {
     padding: 0px;
     margin: 0px;
   }
-
-  nav.navbar ul.nav > li.dropdown span.megamenu-title {
-    display: block;
-    color: #43465d;
-    font-size: 18px;
-  }
-
-  nav.navbar ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-
-  nav.navbar ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
-    margin-bottom: 15px;
-  }
 }
-@media screen and (max-width: 992px) {
-  nav.navbar .navbar-header {
+@media screen and (max-width: 769px) {
+  .navbar-header {
     padding-left: 30px;
     padding-right: 30px;
+    float: none;
   }
 
-  nav.navbar .navbar-collapse {
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-collapse {
     background: #012878;
-    max-height: none;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+    border: none;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+    padding-bottom: 13px;
     overflow-y: auto !important;
   }
 
-  nav.navbar .navbar-collapse.collapse.in {
-    max-height: none;
-    padding-bottom: 13px;
-  }
-
-  nav.navbar .navbar-toggle {
-    display: inline-block;
+  .navbar-toggle {
+    display: block;
     float: right;
-    margin-right: 0;
+    margin: 0 8px;
+    padding: 0;
   }
 
-  nav.navbar .navbar-brand {
+  .navbar-brand {
     float: left !important;
   }
 

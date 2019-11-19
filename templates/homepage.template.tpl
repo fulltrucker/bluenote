@@ -3,11 +3,10 @@
 		<header class="header">
 			<div id="sticky-header">
 				<!-- Navigation -->
-			    <nav class="navbar navbar-default navbar-fixed dark no-background">
+			    <nav class="navbar navbar-default navbar-fixed dark no-background" role="navigation">
 			        <div class="container">
-			            <!-- Header Navigation -->
 			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
 			                    <i class="fa fa-bars"></i>
 			                </button>
 			                <a class="navbar-brand smooth-menu" href="#main">
@@ -36,9 +35,6 @@
                         </svg>
 			                </a>
 			            </div>
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 			                    <li><a href="#main" class="smooth-menu">main</a></li>
@@ -98,7 +94,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 mobile-speedy-brothers">
-  					<img src="images/speeding-brothers.jpg" />
+  					<img src="/bluenote/images/speeding-brothers.jpg" />
 					</div>
 					<div class="col-md-5">
 [[pdoField? &id=`2` &field=`content` ]]
@@ -196,8 +192,7 @@
     </footer>
 		<!-- /footer-copyright -->
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/bluenote/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="/bluenote/js/jquery.sticky.js"></script>

@@ -40,4 +40,10 @@ $(document).ready(function(){
 			offset:0
 		});
 
+	// Close mobile menu on click
+
+    $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function () { 
+      $('.navbar-toggle:visible').click();
+    });
+
 });	
