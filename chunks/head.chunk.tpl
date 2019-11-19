@@ -34,7 +34,6 @@
   	<!-- Styles -->
     <link rel='stylesheet' href='/bluenote/css/reset.css' type='text/css' media='screen' />
     <link rel='stylesheet' href='/bluenote/css/font-awesome.min.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='/bluenote/css/flaticon.css' type='text/css' media='screen' />
     <link rel='stylesheet' href='/bluenote/css/animate.css' type='text/css' media='screen' />
     <link rel='stylesheet' href='/bluenote/css/owl.carousel.min.css' type='text/css' media='screen' />
     <link rel='stylesheet' href='/bluenote/css/owl.theme.default.min.css' type='text/css' media='screen' />
