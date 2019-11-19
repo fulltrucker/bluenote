@@ -41,10 +41,10 @@
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class="smooth-menu"><a href="#main">main</a></li>
-			                    <li class="smooth-menu"><a href="#about">about</a></li>
-			                    <li class="smooth-menu"><a href="#work">work</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
+			                    <li><a href="#main" class="smooth-menu">main</a></li>
+			                    <li><a href="#about" class="smooth-menu">about</a></li>
+			                    <li><a href="#work" class="smooth-menu">work</a></li>
+			                    <li><a href="#contact" class="smooth-menu">contact</a></li>
 			                </ul>
 			            </div>
 			        </div>
