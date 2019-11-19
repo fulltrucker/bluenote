@@ -266,48 +266,53 @@ nav.navbar ul.nav > li.dropdown span {
 // Hamburglar
 //-------------------------------------------------------------------------------
 nav.navbar .navbar-toggle {
-	position:relative;
-	background-color:transparent;
-	border: $dark-pink 2px solid;
-	top: 0px;
+  position:relative;
+  background-color:transparent;
+  border: $dark-pink 2px solid;
+  top: 0px;
   z-index: 999;
-	float: right;
-	margin: 30px 8px;
-	padding: 10px 6px;
-	border-radius: 0px;
+  float: right;
+  margin: 30px 8px;
+  padding: 10px 6px;
+  border-radius: 0px;
 }
-
 nav.navbar .navbar-toggle:focus,
 nav.navbar .navbar-toggle:hover {
   background-color: transparent;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: $dark-pink;
 }
-
 .navbar-toggle span.icon-bar {
+  -webkit-transition: all 0.15s;
+  -o-transition: all 0.15s;
   transition: all 0.15s;
 }
 .navbar-toggle span:nth-child(2) {
-    transform: translateX(3px) rotate(45deg);
-    transform-origin: 10% 10%;
+  -webkit-transform: translateX(3px) rotate(45deg);
+      -ms-transform: translateX(3px) rotate(45deg);
+          transform: translateX(3px) rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+      -ms-transform-origin: 10% 10%;
+          transform-origin: 10% 10%;
 }
-
 .navbar-toggle span:nth-child(3) {
     opacity: 0;
 }
-
 .navbar-toggle span:nth-child(4) {
-    transform: translateX(3px) rotate(-45deg);
-    transform-origin: 10% 90%;
+  -webkit-transform: translateX(3px) rotate(-45deg);
+      -ms-transform: translateX(3px) rotate(-45deg);
+          transform: translateX(3px) rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+      -ms-transform-origin: 10% 90%;
+          transform-origin: 10% 90%;
 }
-
 .navbar-toggle.collapsed span:nth-child(2),
 .navbar-toggle.collapsed span:nth-child(4) {
-    transform: rotate(0);
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
 }
-
 .navbar-toggle.collapsed span:nth-child(3) {
     opacity: 1;
 }
