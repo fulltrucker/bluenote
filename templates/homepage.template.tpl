@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-
-  <head>
-  
-    <!-- meta data -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  
-  	<!-- SEO -->
-    <title>Evan Chute Design</title>
-    <meta name="description" content="EvanChute.design is the online home of user experience designer Evan Chute.">
-  	<meta name="robots" content="index, follow" />
-  	<meta name="referrer" content="always" />
-  
-  	<!-- Social & Open Graph -->
-  	<meta property="og:title" content="EvanChute.design" />
-  	<meta property="og:description" content="EvanChute.design is the online home of user experience designer Evan Chute." />
-  	<meta property="og:image" content="http://www.evanchute.design/assets/images/social.jpg"> <!-- include your hosted image full URL -->
-  	<meta property="og:url" content="http://www.evanchute.design/" />
-  	<meta property="og:type" content="portfolio" />
-  	<meta name="twitter:title" content="EvanChute.design" >
-  	<meta name="twitter:description" content="EvanChute.design is the online home of user experience designer Evan Chute." />
-  	<meta name="twitter:image" content="http://www.evanchute.design/assets/images/social.jpg" /> <!-- include your hosted image full URL -->
-  	<meta name="twitter:card" content="summary_large_image" />
-  	<meta name="twitter:site" content="@fulltrucker" />
-  	<meta name="twitter:creator" content="@fulltrucker" />
-  
-  	<!-- Favicon -->
-  	<link rel="icon" type="image/png" href="bluenote/images/favicon.ico" sizes="32x32">
-  
-  	<!-- Styles -->
-    <link rel='stylesheet' href='bluenote/css/reset.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='bluenote/css/font-awesome.min.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='bluenote/css/flaticon.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='bluenote/css/animate.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='bluenote/css/owl.carousel.min.css' type='text/css' media='screen' />
-    <link rel='stylesheet' href='bluenote/css/owl.theme.default.min.css' type='text/css' media='screen' />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel='stylesheet' href='bluenote/css/bootsnav.css' type='text/css' media='screen' />	
-    <link rel='stylesheet' href='bluenote/css/style.css' type='text/css' media='screen' />
-  
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-  
-  <body>
-
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-  
+[[$head]] 
 		<!-- top-area -->
 		<header class="top-area">
 			<div class="header-area">
@@ -139,8 +80,7 @@
 			<div class="container">
   			<div class="row ruckus">
     			<div class="col-md-12 bio">
-      			<p>multidisciplinary designer with a focus on user experience design and art direction. reach out when you're ready to</p>
-      			<h1>bring the <span class="playfair">ruckus</span></h1>
+[[*content]]
   				</div>
   			</div>
   			<div class="row">
@@ -189,14 +129,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 mobile-speedy-brothers">
-  					<img src="bluenote/images/speeding-brothers.jpg" />
+  					<img src="images/speeding-brothers.jpg" />
 					</div>
 					<div class="col-md-5">
       			<h1>Hey there, I'm Evan.</h1>
       			<p>That's me piloting that sweet Schwinn knock-off, circa 1983 or thereabouts. And you can still find me on board a two-wheeled machine, a pair of skis, in the co-pilot seat of a <a href="http://www.projectbaja.com" target="_blank">1970 Volkswagen Beetle</a>, or an epic road trip experiencing things and exploring the world intellectually, physically, and emotionally.</p>
         		<p>I thrive when I'm learning, discovering, and evolving as a human being, in my career, and at play. I'm generally keen to try new things, and usually okay with sucking at them.</p>
         		<p>I like to think my approach to life shapes and informs my work, and makes me a more effective problem-solver and collaborator.</p>
-      			<h2>So go fast, <span class="playfair">take chances.</span></h2>
+      			<h2>So go fast, <span class="accent-font">take chances.</span></h2>
       			<p>And while we're at it, we might as well pass on a blind corner or two. Remember: experience is that thing you only get right after you really need it.</p>
 					</div>
 				</div>
@@ -231,9 +171,9 @@
 					<div class="col-md-4">
       			<h1>What I do.</h1>
       			<p>I'm a detail-oriented, insatiably curious <strong>User Experience Designer</strong>. I excel at identifying and communicating value at the intersection of user expectations and business goals. My work spans disciplines including user experience design, front-end web development and site building, project planning and management, and strategic graphic design.</p>
-      			<h5><span class="playfair">Visual Design and Art Direction</span></h5>
-      			<h5><span class="playfair">Front-end Web Development</span></h5>
-      			<h5><span class="playfair">Project and Process Management</span></h5>
+      			<h5><span class="accent-font">Visual Design and Art Direction</span></h5>
+      			<h5><span class="accent-font">Front-end Web Development</span></h5>
+      			<h5><span class="accent-font">Project and Process Management</span></h5>
 					</div>
 					<div class="col-md-8">
       			<h1>work</h1>
@@ -268,7 +208,7 @@
                     <circle cx="450" cy="450" r="450"/>
                 </clipPath>
               </defs>
-              <image width="900" height="900" filter="url(#darkbluepink)" clip-path="url(#circle)" xlink:href="bluenote/images/evan-saucy-portrait.jpg"/>
+              <image width="900" height="900" filter="url(#darkbluepink)" clip-path="url(#circle)" xlink:href="/bluenote/images/evan-saucy-portrait.jpg"/>
             </svg>
 					</div>
 					<div class="col-sm-1"></div>
@@ -325,7 +265,7 @@
 		<footer id="footer" class="section">
 			<div class="container">
 				<div class="footer-copyright text-center">
-  				<h1><span class="playfair">rock.</span></h1>
+  				<h1><span class="accent-font">rock.</span></h1>
 					<p>&copy;2019 EvanChute.design</p>
 				</div>
 			</div>
@@ -337,16 +277,16 @@
     </footer>
 		<!-- /footer-copyright -->
 
-		<script src="bluenote/js/jquery.min.js"></script>
+    <script src="/bluenote/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-		<script src="bluenote/js/jquery.sticky.js"></script>
-		<script src="bluenote/js/progressbar.js"></script>
-		<script src="bluenote/js/jquery.appear.js"></script>
-    <script src="bluenote/js/owl.carousel.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		<script src="bluenote/js/bootsnav.js"></script>
-    <script src="bluenote/js/custom.js"></script>
+    <script src="/bluenote/js/jquery.sticky.js"></script>
+	<script src="/bluenote/js/progressbar.js"></script>
+	<script src="/bluenote/js/jquery.appear.js"></script>
+    <script src="/bluenote/js/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script src="/bluenote/js/bootsnav.js"></script>
+    <script src="/bluenote/js/custom.js"></script>
 
   </body>
 </html>
