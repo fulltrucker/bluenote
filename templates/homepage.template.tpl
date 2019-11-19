@@ -85,38 +85,7 @@
   			</div>
   			<div class="row">
       		<div class="col-md-12 social">
-      			<ul>
-      				<li>
-      					<a class="icon-social" href="mailto:wtf@evanchute.com" target="_blank">
-                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      				<li>
-      					<a class="icon-social" href="https://www.linkedin.com/in/emchute/" target="_blank">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      				<li>
-      					<a class="icon-social" href="https://dribbble.com/fulltrucker" target="_blank">
-                  <i class="fa fa-dribbble" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      				<li>
-      					<a class="icon-social" href="https://www.github.com/fulltrucker" target="_blank">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      				<li>
-      					<a class="icon-social" href="https://www.instagram.com/full_trucker/" target="_blank">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      				<li>
-      					<a class="icon-social" href="https://twitter.com/fulltrucker" target="_blank">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-      					</a>
-      				</li>
-      			</ul>
+[[$social-icons-list]]
       		</div>
   			</div>
 			</div>
@@ -132,12 +101,7 @@
   					<img src="images/speeding-brothers.jpg" />
 					</div>
 					<div class="col-md-5">
-      			<h1>Hey there, I'm Evan.</h1>
-      			<p>That's me piloting that sweet Schwinn knock-off, circa 1983 or thereabouts. And you can still find me on board a two-wheeled machine, a pair of skis, in the co-pilot seat of a <a href="http://www.projectbaja.com" target="_blank">1970 Volkswagen Beetle</a>, or an epic road trip experiencing things and exploring the world intellectually, physically, and emotionally.</p>
-        		<p>I thrive when I'm learning, discovering, and evolving as a human being, in my career, and at play. I'm generally keen to try new things, and usually okay with sucking at them.</p>
-        		<p>I like to think my approach to life shapes and informs my work, and makes me a more effective problem-solver and collaborator.</p>
-      			<h2>So go fast, <span class="accent-font">take chances.</span></h2>
-      			<p>And while we're at it, we might as well pass on a blind corner or two. Remember: experience is that thing you only get right after you really need it.</p>
+[[pdoField? &id=`2` &field=`content` ]]
 					</div>
 				</div>
 			</div>
@@ -169,11 +133,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-      			<h1>What I do.</h1>
-      			<p>I'm a detail-oriented, insatiably curious <strong>User Experience Designer</strong>. I excel at identifying and communicating value at the intersection of user expectations and business goals. My work spans disciplines including user experience design, front-end web development and site building, project planning and management, and strategic graphic design.</p>
-      			<h5><span class="accent-font">Visual Design and Art Direction</span></h5>
-      			<h5><span class="accent-font">Front-end Web Development</span></h5>
-      			<h5><span class="accent-font">Project and Process Management</span></h5>
+[[pdoField? &id=`3` &field=`content` ]]
 					</div>
 					<div class="col-md-8">
       			<h1>work</h1>
@@ -213,48 +173,7 @@
 					</div>
 					<div class="col-sm-1"></div>
 					<div class="col-sm-6">
-  					<h1>Get in touch.</h1>
-      			<p>I'm always curious to check out new projects that I can get excited about, so don't hesitate to reach out with your latest hair-brained scheme or wacky concept.</p>
-      			<p>I'm currently available for freelance projects and full-time employment.</p>
-            <p>&nbsp;</p>
-            <p>Cheers,</p>
-      			<p><strong>Evan Chute</strong><br />
-              User Experience Designer & Art Director</p>
-        		<div class="social">
-        			<ul>
-        				<li>
-        					<a class="icon-social" href="mailto:wtf@evanchute.com" target="_blank">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        				<li>
-        					<a class="icon-social" href="https://www.linkedin.com/in/emchute/" target="_blank">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        				<li>
-        					<a class="icon-social" href="https://dribbble.com/fulltrucker" target="_blank">
-                    <i class="fa fa-dribbble" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        				<li>
-        					<a class="icon-social" href="https://www.github.com/fulltrucker" target="_blank">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        				<li>
-        					<a class="icon-social" href="https://www.instagram.com/full_trucker/" target="_blank">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        				<li>
-        					<a class="icon-social" href="https://twitter.com/fulltrucker" target="_blank">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-        					</a>
-        				</li>
-        			</ul>
-          		</div>
-      			<small>You can find me at any of the internet places linked above. <strong>Pro-tip:</strong> Click the envelope icon on the left to send me an email.</small>
+[[pdoField? &id=`4` &field=`content` ]]
 					</div>
 				</div>
 			</div>
