@@ -200,32 +200,28 @@ nav.navbar ul.nav > li > a {
 	-ms-transition:.3s linear;
 	-o-transition:.3s linear;
 	transition:.3s linear;
-}
-
-nav.navbar ul.nav > li > a {
 	padding: 12px 20px 11px 20px;
 	margin: 27px 0px 27px 27px;
 	border: 1px solid transparent;
 }
 
-nav.navbar ul.nav > li > a:hover,
-nav.navbar ul.nav > li > a:focus {
-	color: $dark-pink;
-/*
-	background: $darker-blue;
-	border: 1px solid $dark-pink;
-*/
-}
-
 nav.navbar ul.nav > li.active > a {
   color: $light-text;
 	border: 1px solid $dark-pink;
+	background-color: transparent;
 	
 	@media screen and (max-width:992px) {
     color: $dark-pink;
   	border: 1px solid transparent;
 	}
-	
+}
+
+nav.navbar ul.nav > li > a:hover,
+nav.navbar ul.nav > li > a:focus,
+nav.navbar ul.nav > li.active > a:hover,
+nav.navbar ul.nav > li.active > a:focus {
+	color: $dark-pink;
+	background-color: transparent;
 }
 
 nav.navbar ul.nav > li.dropdown > a.dropdown-toggle:after {
@@ -239,31 +235,29 @@ nav.navbar ul.nav > li.dropdown span {
 
 .sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {
 	color: $dark-text;
-	
 	@media screen and (max-width:992px) {
   	color: $light-text;
 	}
-	
 }
 
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:hover,
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus {
-	color: $dark-pink;
-/*
-	background: $darker-blue;
-	border: 1px solid $dark-pink;
-*/
-}
-
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a,
+ {
   color: $dark-text;
 	border: 1px solid $dark-pink;
+	background-color: transparent;
 	
 	@media screen and (max-width:992px) {
     color: $dark-pink;
   	border: 1px solid transparent;
 	}
-	
+}
+
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:hover,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:hover,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:focus {
+	color: $dark-pink;
+	background-color: transparent;
 }
 
 nav.navbar .navbar-toggle {
