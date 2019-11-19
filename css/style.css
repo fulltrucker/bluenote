@@ -112,9 +112,11 @@ html, body {
 }
 
 .svg-logo {
+  position: relative;
   width: 125px;
   height: 100px;
   margin: 0;
+  z-index: 99999;
 }
 .svg-logo path, .svg-logo polygon, .svg-logo rect {
   fill: #EE369E;
@@ -241,6 +243,7 @@ nav.navbar .navbar-toggle {
   background-color: transparent;
   border: none;
   top: 0;
+  z-index: 999;
 }
 
 nav.navbar .navbar-toggle:focus,
@@ -279,8 +282,14 @@ nav.navbar .navbar-toggle i {
     background: #012878;
   }
 
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  .navbar-default .navbar-collapse {
     border: none;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+    height: 100vh;
+    margin-right: -20px;
   }
 
   .navbar-collapse.collapse {

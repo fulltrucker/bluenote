@@ -141,9 +141,11 @@ html,body {
 }
 
 .svg-logo {
-    width: 125px;
-    height: 100px;
-    margin: 0;
+	position:relative;
+  width: 125px;
+  height: 100px;
+  margin: 0;
+  z-index: 99999;
     
     path, polygon, rect {
       fill: $dark-pink;
@@ -265,6 +267,7 @@ nav.navbar .navbar-toggle {
 	background-color:transparent;
 	border: none;
 	top:0;
+  z-index: 999;
 }
 
 nav.navbar .navbar-toggle:focus,
@@ -301,8 +304,14 @@ nav.navbar .navbar-toggle i {
   .navbar-collapse {
     background: $darker-blue;
   }
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  .navbar-default .navbar-collapse {
     border: none;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+    height: 100vh;
+    margin-right: -20px;
   }
   .navbar-collapse.collapse {
     display: none!important;
