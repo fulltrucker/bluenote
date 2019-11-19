@@ -1,10 +1,7 @@
 /*
-Template Name: Me
-Author: One Page Love
-Author URI: https://onepagelove.com
-Template URI: https://onepagelove.com/me
-Description: Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo, bio and icons.
-Version: 0.2.2
+Template Name: Blue Note
+Author: Evan Chute
+Version: 6.6.6
 */
 /* -- Common -- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900");
@@ -106,28 +103,56 @@ html, body {
   clear: both;
 }
 
-.top-area {
+.header {
   position: relative;
   z-index: 9999;
 }
 
 .svg-logo {
+  position: relative;
   width: 125px;
   height: 100px;
   margin: 0;
+  z-index: 99999;
 }
 .svg-logo path, .svg-logo polygon, .svg-logo rect {
   fill: #EE369E;
 }
 
-nav.navbar.bootsnav.no-background {
+nav.navbar.no-background {
   background: none;
   border: none;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+@media (min-width: 1024px) {
+  nav.navbar.no-background {
+    background-color: transparent;
+    border: none;
+  }
 }
 
-nav.navbar.bootsnav {
+nav.navbar.navbar-fixed {
+  position: fixed;
+  display: block;
+  width: 100%;
+}
+
+nav.navbar {
   background: none;
   border: none;
+  margin-bottom: 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #fff;
+  border: none;
+  border-bottom: solid 1px #e0e0e0;
+  z-index: 9;
 }
 
 .navbar-brand {
@@ -137,7 +162,7 @@ nav.navbar.bootsnav {
   display: inline-block;
 }
 
-nav.navbar.bootsnav ul.nav > li > a {
+nav.navbar ul.nav > li > a {
   color: #FFF;
   font-size: 17px;
   font-weight: 400;
@@ -147,83 +172,115 @@ nav.navbar.bootsnav ul.nav > li > a {
   -ms-transition: 0.3s linear;
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
-}
-
-nav.navbar.bootsnav ul.nav > li > a {
   padding: 12px 20px 11px 20px;
   margin: 27px 0px 27px 27px;
   border: 1px solid transparent;
 }
 
-nav.navbar.bootsnav ul.nav > li > a:hover,
-nav.navbar.bootsnav ul.nav > li > a:focus {
-  color: #EE369E;
-  /*
-  	background: $darker-blue;
-  	border: 1px solid $dark-pink;
-  */
-}
-
-nav.navbar.bootsnav ul.nav > li.active > a {
+nav.navbar ul.nav > li.active > a {
   color: #FFF;
   border: 1px solid #EE369E;
+  background-color: transparent;
 }
 @media screen and (max-width: 992px) {
-  nav.navbar.bootsnav ul.nav > li.active > a {
+  nav.navbar ul.nav > li.active > a {
     color: #EE369E;
     border: 1px solid transparent;
   }
 }
 
-nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+nav.navbar ul.nav > li > a:hover,
+nav.navbar ul.nav > li > a:focus,
+nav.navbar ul.nav > li.active > a:hover,
+nav.navbar ul.nav > li.active > a:focus {
+  color: #EE369E;
+  background-color: transparent;
+}
+
+nav.navbar ul.nav > li.dropdown > a.dropdown-toggle:after {
   content: "";
 }
 
-nav.navbar.bootsnav ul.nav > li.dropdown span {
+nav.navbar ul.nav > li.dropdown span {
   font-size: 8px;
   margin-left: 15px;
 }
 
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {
   color: #4A4A4A;
 }
 @media screen and (max-width: 992px) {
-  .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {
+  .sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {
     color: #FFF;
   }
 }
 
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus {
-  color: #EE369E;
-  /*
-  	background: $darker-blue;
-  	border: 1px solid $dark-pink;
-  */
-}
-
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active > a {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a {
   color: #4A4A4A;
   border: 1px solid #EE369E;
+  background-color: transparent;
 }
 @media screen and (max-width: 992px) {
-  .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active > a {
+  .sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a {
     color: #EE369E;
     border: 1px solid transparent;
   }
 }
 
-nav.navbar.bootsnav .navbar-toggle {
-  position: relative;
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:hover,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:hover,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:focus {
+  color: #EE369E;
   background-color: transparent;
-  border: none;
-  top: 0;
 }
 
-nav.navbar.bootsnav .navbar-toggle i {
-  color: #EE369E;
-  font-size: 40px;
-  padding: 30px 0px;
+nav.navbar .navbar-toggle {
+  position: relative;
+  background-color: transparent;
+  border: #EE369E 2px solid;
+  top: 0px;
+  z-index: 999;
+  float: right;
+  margin: 30px 8px;
+  padding: 10px 6px;
+  border-radius: 0px;
+}
+
+nav.navbar .navbar-toggle:focus,
+nav.navbar .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #EE369E;
+}
+
+.navbar-toggle span.icon-bar {
+  transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+  transform: translateX(3px) rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+  opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+  transform: translateX(3px) rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1008px) {
@@ -231,50 +288,55 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 0px;
     margin: 0px;
   }
-
-  nav.navbar.bootsnav ul.nav > li.dropdown span.megamenu-title {
-    display: block;
-    color: #43465d;
-    font-size: 18px;
-  }
-
-  nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-
-  nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
-    margin-bottom: 15px;
-  }
 }
-@media screen and (max-width: 992px) {
-  nav.navbar.bootsnav .navbar-header {
+@media screen and (max-width: 769px) {
+  .navbar-header {
     padding-left: 30px;
     padding-right: 30px;
+    float: none;
   }
 
-  nav.navbar.bootsnav.no-full .navbar-collapse {
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-collapse {
     background: #012878;
-    max-height: none;
+  }
+
+  .navbar-default .navbar-collapse {
+    border: none;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    padding-top: 100px;
+    height: 100vh;
+    margin-right: -20px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+    border: none;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
     overflow-y: auto !important;
   }
 
-  nav.navbar.bootsnav .navbar-collapse.collapse.in {
-    max-height: none;
-    padding-bottom: 13px;
+  .navbar-toggle {
+    display: block;
   }
 
-  nav.navbar.bootsnav .navbar-toggle {
-    display: inline-block;
-    float: right;
-    margin-right: 0;
-  }
-
-  nav.navbar.bootsnav .navbar-brand {
+  .navbar-brand {
     float: left !important;
   }
 
-  nav.navbar.bootsnav ul.nav > li > a {
+  nav.navbar ul.nav > li > a {
     color: #FFF;
     padding: 15px 0px;
     border: transparent;
@@ -300,13 +362,6 @@ nav.navbar.bootsnav .navbar-toggle i {
   min-height: 100vh;
   padding: 133px 0px 33px 0px;
   position: relative;
-}
-
-.accent-font {
-  font-family: "Playfair Display", serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 144%;
 }
 
 #scroll-Top .return-to-top {
@@ -345,6 +400,14 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 #scroll-Top .return-to-top i {
   position: relative;
+}
+
+/* -- User Styles -- */
+.accent-font {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 144%;
 }
 
 /* -- Main Section -- */

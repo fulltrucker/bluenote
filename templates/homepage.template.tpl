@@ -1,14 +1,16 @@
 [[$head]] 
-		<!-- top-area -->
-		<header class="top-area">
-			<div class="header-area">
+		<!-- Header -->
+		<header class="header">
+			<div id="sticky-header">
 				<!-- Navigation -->
-			    <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav">
+			    <nav class="navbar navbar-default navbar-fixed dark no-background" role="navigation">
 			        <div class="container">
-			            <!-- Header Navigation -->
 			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
+			                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
 			                </button>
 			                <a class="navbar-brand smooth-menu" href="#main">
                         <svg class="svg-logo" viewBox="0 0 125 100">
@@ -36,15 +38,12 @@
                         </svg>
 			                </a>
 			            </div>
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class="smooth-menu"><a href="#main">main</a></li>
-			                    <li class="smooth-menu"><a href="#about">about</a></li>
-			                    <li class="smooth-menu"><a href="#work">work</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
+			                    <li><a href="#main" class="smooth-menu">main</a></li>
+			                    <li><a href="#about" class="smooth-menu">about</a></li>
+			                    <li><a href="#work" class="smooth-menu">work</a></li>
+			                    <li><a href="#contact" class="smooth-menu">contact</a></li>
 			                </ul>
 			            </div>
 			        </div>
@@ -53,7 +52,7 @@
 			</div>
 		    <div class="clearfix"></div>
 		</header>
-		<!-- /top-area -->
+		<!-- /Header -->
 
 		<!-- main -->
 		<section id="main" class="section">
@@ -98,7 +97,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 mobile-speedy-brothers">
-  					<img src="images/speeding-brothers.jpg" />
+  					<img src="/bluenote/images/speeding-brothers.jpg" />
 					</div>
 					<div class="col-md-5">
 [[pdoField? &id=`2` &field=`content` ]]
@@ -196,15 +195,14 @@
     </footer>
 		<!-- /footer-copyright -->
 
-    <script src="/bluenote/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="/bluenote/js/jquery.sticky.js"></script>
-	<script src="/bluenote/js/progressbar.js"></script>
-	<script src="/bluenote/js/jquery.appear.js"></script>
+    <script src="/bluenote/js/progressbar.js"></script>
+    <script src="/bluenote/js/jquery.appear.js"></script>
     <script src="/bluenote/js/owl.carousel.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-	<script src="/bluenote/js/bootsnav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="/bluenote/js/custom.js"></script>
 
   </body>

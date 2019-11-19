@@ -1,8 +1,14 @@
-/* Big Accent Font */
-
+/*
+Template Name: Blue Note
+Author: Evan Chute
+Version: 6.6.6
+*/
+/* -- User Styles -- */
 .accent-font {
-	font-family:'Playfair Display',serif;
-	font-weight:900;
-	font-style:italic;
-	font-size:144%;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 144%;
 }
+
+/*# sourceMappingURL=user-styles.css.map */
