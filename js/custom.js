@@ -36,7 +36,7 @@ $(document).ready(function(){
 	
 	// 2. Smooth Scroll spy
 		
-		$('.header-area').sticky({
+		$('#sticky-header').sticky({
            topSpacing:0
         });
 		

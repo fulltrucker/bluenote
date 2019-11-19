@@ -1,7 +1,7 @@
 [[$head]] 
 		<!-- Header -->
 		<header class="header">
-			<div class="header-area">
+			<div id="sticky-header">
 				<!-- Navigation -->
 			    <nav class="navbar navbar-default navbar-fixed dark no-background">
 			        <div class="container">
