@@ -149,12 +149,12 @@ html,body {
       fill: $dark-pink;
     }
 }
-nav.navbar.bootsnav.no-background {
+nav.navbar.no-background {
 	background: none;
 	border: none;
 }
 
-nav.navbar.bootsnav {
+nav.navbar {
 	background: none;
 	border: none;
 }
@@ -166,7 +166,7 @@ nav.navbar.bootsnav {
 	display:inline-block;
 }
 
-nav.navbar.bootsnav ul.nav > li > a {
+nav.navbar ul.nav > li > a {
 	color: $light-text;
 	font-size:17px;
 	font-weight:400;
@@ -178,14 +178,14 @@ nav.navbar.bootsnav ul.nav > li > a {
 	transition:.3s linear;
 }
 
-nav.navbar.bootsnav ul.nav > li > a {
+nav.navbar ul.nav > li > a {
 	padding: 12px 20px 11px 20px;
 	margin: 27px 0px 27px 27px;
 	border: 1px solid transparent;
 }
 
-nav.navbar.bootsnav ul.nav > li > a:hover,
-nav.navbar.bootsnav ul.nav > li > a:focus {
+nav.navbar ul.nav > li > a:hover,
+nav.navbar ul.nav > li > a:focus {
 	color: $dark-pink;
 /*
 	background: $darker-blue;
@@ -193,7 +193,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 */
 }
 
-nav.navbar.bootsnav ul.nav > li.active > a {
+nav.navbar ul.nav > li.active > a {
   color: $light-text;
 	border: 1px solid $dark-pink;
 	
@@ -204,16 +204,16 @@ nav.navbar.bootsnav ul.nav > li.active > a {
 	
 }
 
-nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+nav.navbar ul.nav > li.dropdown > a.dropdown-toggle:after {
 	content:"";
 }
 
-nav.navbar.bootsnav ul.nav > li.dropdown span {
+nav.navbar ul.nav > li.dropdown span {
 	font-size:8px;
 	margin-left:15px;
 }
 
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {
 	color: $dark-text;
 	
 	@media screen and (max-width:992px) {
@@ -222,8 +222,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 	
 }
 
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:hover,
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus {
 	color: $dark-pink;
 /*
 	background: $darker-blue;
@@ -231,7 +231,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 */
 }
 
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active > a {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a {
   color: $dark-text;
 	border: 1px solid $dark-pink;
 	
@@ -242,14 +242,14 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 	
 }
 
-nav.navbar.bootsnav .navbar-toggle {
+nav.navbar .navbar-toggle {
 	position:relative;
 	background-color:transparent;
 	border: none;
 	top:0;
 }
 
-nav.navbar.bootsnav .navbar-toggle i {
+nav.navbar .navbar-toggle i {
 	color: $dark-pink;
 	font-size: 40px;
 	padding: 30px 0px;
@@ -261,43 +261,43 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin: 0px;
     // width: 100%;
   }
-	nav.navbar.bootsnav ul.nav > li.dropdown span.megamenu-title {
+	nav.navbar ul.nav > li.dropdown span.megamenu-title {
   	display:block;
   	color: #43465d;
   	font-size: 18px;
   }
-	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
+	nav.navbar ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
   	margin-top: 20px;
   	font-size: 14px;
   }
-	nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
+	nav.navbar ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
   	margin-bottom: 15px;
   }
 }
 
 @media screen and (max-width:992px) {
-  nav.navbar.bootsnav .navbar-header {
+  nav.navbar .navbar-header {
     padding-left: 30px;
     padding-right: 30px;
   }
-  nav.navbar.bootsnav.no-full .navbar-collapse {
+  nav.navbar.no-full .navbar-collapse {
     background: $darker-blue;
     max-height: none;
     overflow-y: auto !important;
   }
-  nav.navbar.bootsnav .navbar-collapse.collapse.in {
+  nav.navbar .navbar-collapse.collapse.in {
     max-height: none;
   	padding-bottom: 13px;
   }
-	nav.navbar.bootsnav .navbar-toggle {
+	nav.navbar .navbar-toggle {
   	display: inline-block; 
   	float: right;
   	margin-right: 0;
   }
-	nav.navbar.bootsnav .navbar-brand {
+	nav.navbar .navbar-brand {
   	float: left!important;
   }
-	nav.navbar.bootsnav ul.nav > li > a {
+	nav.navbar ul.nav > li > a {
   	color: $light-text;
   	padding: 15px 0px;
   	border: transparent;
