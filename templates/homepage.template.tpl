@@ -7,7 +7,10 @@
 			        <div class="container">
 			            <div class="navbar-header">
 			                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-			                    <i class="fa fa-bars"></i>
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
 			                </button>
 			                <a class="navbar-brand smooth-menu" href="#main">
                         <svg class="svg-logo" viewBox="0 0 125 100">
