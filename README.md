@@ -1,11 +1,8 @@
 # Blue Note
 
-**Contributors:** Evan Chute
-
-**Requires at least:** MODX 2.x
-
-**Tested up to:** MODX 2.7.x
-
+**Contributors:** Evan Chute  
+**Requires at least:** MODX 2.x  
+**Tested up to:** MODX 2.7.x  
 **Requires PHP:** 5.6
 
 **License:** GPLv2 or later  
@@ -27,12 +24,12 @@ I'd really prefer that you not do that.
 
 Blue Note bundles the following third-party resources:
 
-Meyer Web Reset | v2.0 | 20110126
-Source: http://meyerweb.com/eric/tools/css/reset/ 
+Meyer Web Reset | v2.0 | 20110126  
+Source: http://meyerweb.com/eric/tools/css/reset/  
 **License:** none (public domain)
 
-Font Awesome icons, Copyright Dave Gandy
-**License:** SIL Open Font License, version 1.1.
+Font Awesome icons, Copyright Dave Gandy  
+**License:** SIL Open Font License, version 1.1.  
 Source: http://fontawesome.io/
 
 ## Changelog
