@@ -1,6 +1,6 @@
 [[$head]] 
-		<!-- top-area -->
-		<header class="top-area">
+		<!-- Header -->
+		<header class="header">
 			<div class="header-area">
 				<!-- Navigation -->
 			    <nav class="navbar navbar-default navbar-fixed dark no-background">
@@ -53,7 +53,7 @@
 			</div>
 		    <div class="clearfix"></div>
 		</header>
-		<!-- /top-area -->
+		<!-- /Header -->
 
 		<!-- main -->
 		<section id="main" class="section">

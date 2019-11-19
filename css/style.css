@@ -106,7 +106,7 @@ html, body {
   clear: both;
 }
 
-.top-area {
+.header {
   position: relative;
   z-index: 9999;
 }
