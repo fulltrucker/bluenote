@@ -4,6 +4,10 @@ Author: Evan Chute
 Version: 6.6.6
 */
 /* -- User Styles -- */
+.small, small {
+  font-size: 80%;
+}
+
 .accent-font {
   font-family: "Playfair Display", serif;
   font-weight: 900;

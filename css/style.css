@@ -415,6 +415,10 @@ nav.navbar .navbar-toggle:hover {
 }
 
 /* -- User Styles -- */
+.small, small {
+  font-size: 80%;
+}
+
 .accent-font {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -621,7 +625,11 @@ nav.navbar .navbar-toggle:hover {
 }
 #contact .small, #contact small {
   color: #4A4A4A;
-  font-size: 80%;
+}
+
+/* -- Case Study Pages -- */
+#case-study {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
