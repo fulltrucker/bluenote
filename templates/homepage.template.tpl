@@ -40,11 +40,11 @@
 
 		<!-- about -->
 		<section id="about" class="section">
-  		<div class="speedy-brothers"></div>
+  		<div class="speedy-brothers" style="background-image: url('[[pdoField? &id=`2` &field=`section-image` ]]')"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 mobile-speedy-brothers">
-  					<img src="/bluenote/images/speeding-brothers.jpg" />
+  					<img src="[[pdoField? &id=`2` &field=`section-image` ]]" />
 					</div>
 					<div class="col-md-5">
 [[pdoField? &id=`2` &field=`content` ]]
@@ -115,7 +115,7 @@
                     <circle cx="450" cy="450" r="450"/>
                 </clipPath>
               </defs>
-              <image width="900" height="900" filter="url(#darkbluepink)" clip-path="url(#circle)" xlink:href="/bluenote/images/evan-saucy-portrait.jpg"/>
+              <image width="900" height="900" filter="url(#darkbluepink)" clip-path="url(#circle)" xlink:href="[[pdoField? &id=`4` &field=`section-image` ]]"/>
             </svg>
 					</div>
 					<div class="col-sm-1"></div>

@@ -3,15 +3,14 @@
   color: $dark-text;
   
 	.speedy-brothers {
-  	background-image: url('../images/speeding-brothers.jpg'); 
-  	background-position: center center;
-  	background-size: cover;
+  	background-position: center;
   	background-repeat: no-repeat;
+  	background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 100vh;
     @media (max-width: 768px) {
       display: none;
     }
@@ -27,4 +26,3 @@
 	}
   
 }
-
