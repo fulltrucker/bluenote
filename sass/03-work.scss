@@ -1,14 +1,13 @@
 #work {
   background-color: $peach;
   color: $darker-blue;
-  
-	.background-image {
+  #lawnmower {
   	background-image: url('../images/david-lawnmower.jpg'); 
-      -webkit-filter: url('#peachypink');
-      -moz-filter: url('#peachypink');
-      -o-filter: url('#peachypink');
-      -ms-filter: url('#peachypink');
-      filter: url('#peachypink');
+    -webkit-filter: url('#lawnmower-duotone');
+       -moz-filter: url('#lawnmower-duotone');
+         -o-filter: url('#lawnmower-duotone');
+        -ms-filter: url('#lawnmower-duotone');
+            filter: url('#lawnmower-duotone');
     position: absolute;
   	background-position: right bottom;
   	background-size: contain;
@@ -17,5 +16,26 @@
     left: 0;
     width: 100%;
     height: 100%;
-  	}
+  }
+  .slideshow {
+    .slideshow-item {
+      -webkit-filter: url('#horns-duotone');
+         -moz-filter: url('#horns-duotone');
+           -o-filter: url('#horns-duotone');
+          -ms-filter: url('#horns-duotone');
+              filter: url('#horns-duotone');
+//      -webkit-transition: 1s;
+//         -moz-transition: 1s;
+//          -ms-transition: 1s;
+//           -o-transition: 1s;
+//              transition: 1s;
+//    }
+//    .slideshow-item:hover {
+//      -webkit-filter: none;
+//         -moz-filter: none;
+//           -o-filter: none;
+//          -ms-filter: none;
+//              filter: none;
+    }
+  }
 }

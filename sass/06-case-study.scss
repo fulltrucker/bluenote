@@ -1,0 +1,45 @@
+#case-study {
+  position: relative;
+  padding-bottom: 33px;
+  .slideshow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    #slideshow {
+      //margin: 25px;
+      height: 100%;
+      background-color: transparent;
+      .slideshow-item {
+        display: block;
+        height: 100vh;
+      	background-position: center;
+      	background-repeat: no-repeat;
+      	background-size: cover;
+      }
+    }
+  }
+  h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $darker-blue;
+  }
+  h2,h3,h4,h5 {
+    font-weight: 400;
+    color: $darker-blue;
+  }
+  .slide-to {
+    color: $light-gray;
+    margin-left: 7px;
+    &:hover {
+      color: $darker-blue;
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

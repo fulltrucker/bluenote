@@ -3,6 +3,8 @@ Template Name: Blue Note
 Author: Evan Chute
 Version: 6.6.6
 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900i");
 /* -- User Styles -- */
 .small, small {
   font-size: 80%;
@@ -13,6 +15,24 @@ Version: 6.6.6
   font-weight: 900;
   font-style: italic;
   font-size: 144%;
+}
+
+.big-pink-button {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 13px;
+  background-color: transparent;
+  border: #EE369E 1px solid;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.big-pink-button:hover {
+  background-color: #EE369E;
+  color: #FFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=user-styles.css.map */

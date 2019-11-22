@@ -3,7 +3,7 @@ Template Name: Blue Note
 Author: Evan Chute
 Version: 6.6.6
 */
-
+@import "00-variables";
 /* -- Common -- */
 @import "00-common";
 
@@ -22,5 +22,8 @@ Version: 6.6.6
 /* -- Contact Section -- */
 @import "04-contact";
 
+/* -- Full Portfolio Page -- */
+@import "05-portfolio";
+
 /* -- Case Study Pages -- */
-@import "05-case-study";
+@import "06-case-study";

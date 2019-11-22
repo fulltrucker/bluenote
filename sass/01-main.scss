@@ -2,13 +2,13 @@
   background-color: $darker-blue;
 	color: $light-text;
 	
-	.background-image {
+	.throwing-horns {
   	background-image: url('../images/homepage-horns-bw-1660.jpg'); 
-      -webkit-filter: url('#darkbluepink');
-      -moz-filter: url('#darkbluepink');
-      -o-filter: url('#darkbluepink');
-      -ms-filter: url('#darkbluepink');
-      filter: url('#darkbluepink');
+      -webkit-filter: url('#horns-duotone');
+      -moz-filter: url('#horns-duotone');
+      -o-filter: url('#horns-duotone');
+      -ms-filter: url('#horns-duotone');
+      filter: url('#horns-duotone');
       position: absolute;
   	background-position: right top;
   	background-size: auto 90%;
