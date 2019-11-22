@@ -10,7 +10,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   
   	<!-- SEO -->
-    <title>[[If? &subject=`[[*id]]` &operator=`eq` &operand=`1` &then=`` &else=`[[*longtitle]] - ` ]][[++site_name]]</title>
+    <title>[[If? &subject=`[[*id]]` &operator=`eq` &operand=`1` &then=`` &else=`[[*longtitle:ifempty=`[[*pagetitle]]`:else=`[[*pagetitle]] [[*longtitle]]`]] - ` ]][[++site_name]]</title>
     <meta name="description" content="EvanChute.design is the online home of user experience designer Evan Chute.">
   	<meta name="robots" content="index, follow" />
   	<meta name="referrer" content="always" />

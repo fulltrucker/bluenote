@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 col-md-offset-7">
-        <h1>[[*longtitle]]</h1>
+        <h1>[[*pagetitle]] [[*longtitle]]</h1>
 [[*content]]
 [[!pdoResources? &idx=`0` &includeContent=`1` &includeTVs=`pageImage` &tpl=`case-study-section` &sortby=`menuindex` &sortdir=`asc` ]]
         <p class="text-center">
