@@ -23,23 +23,21 @@
       }
     }
   }
-  h1 {
-    font-weight: 600;
+  h1,h4 {
     text-transform: uppercase;
-    color: $darker-blue;
-  }
-  h2,h3,h4,h5 {
-    font-weight: 400;
-    color: $darker-blue;
   }
   .slide-to {
     color: $light-gray;
-    margin-left: -32px;
+    margin-left: -26px;
+    float: left;
     &:hover {
       color: $darker-blue;
     }
     @media (max-width: 768px) {
       display: none;
+    }
+    i {
+      vertical-align: inherit;
     }
   }
 }

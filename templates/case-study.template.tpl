@@ -14,9 +14,9 @@
         <h3>[[*longtitle]]</h3>
 [[*content]]
 [[!pdoResources? &idx=`0` &includeContent=`1` &includeTVs=`pageImage` &tpl=`case-study-section` &sortby=`menuindex` &sortdir=`asc` ]]
-        <p class="text-center">
+        <div class="text-center">
           <a href="[[~1]]#work" class="big-pink-button">Back to Work</a>
-        </p>
+        </div>
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
 
 body {
 	font-family:'Montserrat',sans-serif;
-	font-size:17px;
+	font-size:16px;
 	font-weight:400;
 	color: $dark-text;
 	margin:0 auto;
@@ -31,24 +31,20 @@ a:hover {
   text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-weight:900;
-}
-
-h3,h4 {
+h1,h2 {
+  color: $darker-blue;
   font-weight:700;
+  //margin-top: 1.8em;
 }
 
-h5,h6 {
+h3,h4,h5,h6 {
+  color: $darker-blue;
   font-weight:600;
+  margin-top: 1.8em;
 }
 
 p {
-	font-family:'Montserrat',sans-serif;
-	font-weight:400;
 	line-height:1.8;
-	color:$dark-text;
-	font-size:17px;
 }
 
 img, svg {
@@ -139,7 +135,7 @@ nav.navbar.navbar-fixed {
 nav.navbar {
 	background: none;
 	border: none;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   -o-border-radius: 0px;
@@ -159,7 +155,7 @@ nav.navbar {
 
 nav.navbar ul.nav > li > a {
 	color: $light-text;
-	font-size:17px;
+	font-size:18px;
 	font-weight:400;
 	text-transform:lowercase;
 	-webkit-transition:.3s linear;
@@ -192,15 +188,6 @@ nav.navbar ul.nav > li > a:hover,
 nav.navbar ul.nav > li.active > a:hover {
 	color: $dark-pink;
 	background-color: transparent;
-}
-
-nav.navbar ul.nav > li.dropdown > a.dropdown-toggle:after {
-	content:"";
-}
-
-nav.navbar ul.nav > li.dropdown span {
-	font-size:8px;
-	margin-left:15px;
 }
 
 .sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {

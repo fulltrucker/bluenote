@@ -1,7 +1,7 @@
 #contact {
   min-height: inherit;
   background-color: $light-blue;
-  color: $darker-blue;
+  //  color: $darker-blue;
 
 	.social {
     margin: 33px 0px;
@@ -36,8 +36,4 @@
   	height: auto;
 	}
 	
-	.small, small {
-  	color: $dark-text;
-  }
-
 }

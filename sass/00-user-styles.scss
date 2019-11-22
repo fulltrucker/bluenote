@@ -9,21 +9,31 @@
 	font-weight:900;
 	font-style:italic;
 	font-size:144%;
+	line-height: normal;
 }
-.big-pink-button {
+@mixin big-button($button-color-value) {
+  color: $button-color-value;
   text-transform: uppercase;
   font-weight: 600;
+  display: inline-block;
   padding: 13px;
+  margin: 9px 0px;
   background-color: transparent;
-  border: $dark-pink 1px solid;
+  border: $button-color-value 1px solid;
 	-webkit-transition: .2s;
 	   -moz-transition: .2s;
       -ms-transition: .2s;
        -o-transition: .2s;
           transition: .2s;
   &:hover {
-    background-color: $dark-pink;
+    background-color: $button-color-value;
     color: #FFF;
     text-decoration: none;
   }
+}
+.big-pink-button {
+  @include big-button($dark-pink);
+}
+.big-blue-button {
+  @include big-button($darker-blue);
 }
