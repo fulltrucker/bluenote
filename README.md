@@ -32,6 +32,11 @@ Font Awesome icons, Copyright Dave Gandy
 **License:** SIL Open Font License, version 1.1.  
 Source: http://fontawesome.io/
 
+Slick, the last carousel you'll ever need Copyright (c) 2017 Ken Wheeler  
+Source: http://kenwheeler.github.io/slick  
+**License:** The MIT license.  
+Free as in Bacon.
+
 ## Changelog
 
 ### 1.0
