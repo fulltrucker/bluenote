@@ -1,39 +1,4 @@
 //-------------------------------------------------------------------------------
-// Font Import
-//-------------------------------------------------------------------------------
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
-
-//-------------------------------------------------------------------------------
-// Variables
-//-------------------------------------------------------------------------------
-
-// Color Palette
-$darker-blue: #012878;
-$light-blue: #9ebeff;
-$pink: #ffc3b8;
-$dark-pink: #EE369E;
-$peach: #ffe35f;
-$bright-green: #bcff39;
-$dark-gray: #4A4A4A;
-
-// Colors
-$light-text: #FFF;
-$dark-text: #4A4A4A;
-$color-background: $darker-blue;
-$color-text: #FFFFFF;
-$color-text-link: #EE369E;
-$color-text-link-hover: #FFFFFF;
-$color-icon: #EE369E;
-$color-icon-hover: #FFFFFF;
-
-// Breakpoints
-$bp-smallish: 1200px;
-$bp-tablet: 800px;
-$bp-mobile: 500px;
-
-//-------------------------------------------------------------------------------
 // General
 //-------------------------------------------------------------------------------
 * {
@@ -205,13 +170,18 @@ nav.navbar ul.nav > li > a {
 	padding: 12px 20px 11px 20px;
 	margin: 27px 0px 27px 27px;
 	border: 1px solid transparent;
+	background-color: transparent;
 }
 
 nav.navbar ul.nav > li.active > a {
   color: $light-text;
 	border: 1px solid $dark-pink;
 	background-color: transparent;
-	
+	&:focus {
+    color: $light-text;
+  	border: 1px solid $dark-pink;
+  	background-color: transparent;
+	}
 	@media screen and (max-width:992px) {
     color: $dark-pink;
   	border: 1px solid transparent;
@@ -219,9 +189,7 @@ nav.navbar ul.nav > li.active > a {
 }
 
 nav.navbar ul.nav > li > a:hover,
-nav.navbar ul.nav > li > a:focus,
-nav.navbar ul.nav > li.active > a:hover,
-nav.navbar ul.nav > li.active > a:focus {
+nav.navbar ul.nav > li.active > a:hover {
 	color: $dark-pink;
 	background-color: transparent;
 }
@@ -254,10 +222,10 @@ nav.navbar ul.nav > li.dropdown span {
 	}
 }
 
+//.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus,
+//.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:focus,
 .sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:hover,
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li > a:focus,
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:hover,
-.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:focus {
+.sticky-wrapper.is-sticky nav.navbar ul.nav > li.active > a:hover {
 	color: $dark-pink;
 	background-color: transparent;
 }
@@ -268,7 +236,7 @@ nav.navbar ul.nav > li.dropdown span {
 nav.navbar .navbar-toggle {
   position:relative;
   background-color:transparent;
-  border: $dark-pink 2px solid;
+  border: $dark-pink 1px solid;
   top: 0px;
   z-index: 999;
   float: right;
@@ -408,42 +376,164 @@ nav.navbar .navbar-toggle:hover {
 }
 
 //-------------------------------------------------------------------------------
+// Base Slideshow Styles
+//-------------------------------------------------------------------------------
+.slideshow {
+  .slick-prev, .slick-next {
+  	-webkit-transition: .2s;
+  	   -moz-transition: .2s;
+        -ms-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+    width: 50px;
+    height: 50px;
+    background-color: $darker-blue;
+    z-index: 88;
+    &:hover {
+    background-color: $dark-pink;
+    }
+    &:before {
+      font-family: 'FontAwesome';
+      font-size: 30px;
+      text-align: center;
+      padding: 9px 0px;
+      color: #FFF;
+      opacity: 1;
+    }
+  }
+  .slick-prev {
+    left: 0px;
+    padding-right: 3px;
+    &:before {
+      content: '\f053';
+    }
+  }
+  .slick-next {
+    right: 0px;
+    padding-left: 3px;
+    &:before {
+      content: '\f054';
+    }
+  }
+  .slick-prev.slick-disabled, .slick-next.slick-disabled {
+    visibility: hidden;
+    //  background-color: rgba(255, 255, 255, 0.5);
+    //  cursor: default;
+    //&:before {
+    //  color: #FFF;
+    //  opacity: .5;
+    //}
+  }
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+.slick-dots {
+    bottom: 5px;
+    li {
+        button {
+            &:hover, &:focus {
+                &:before {
+                    opacity: 1; /* keep */
+                }
+            }
+            &:before {
+                font-size: 6px; /* keep */
+                color: #FFF; /* keep */
+                opacity: .5; /* keep */
+            }
+        }
+        &.slick-active button:before {
+            color: $dark-pink;
+            opacity: 1;
+        }
+    }
+}
+//-------------------------------------------------------------------------------
 // Scroll Top
 //-------------------------------------------------------------------------------
-#scroll-Top  .return-to-top {
+#scroll-Top {
+  .return-to-top {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 20px;
+    bottom: 20px;
     display: none;
     width: 40px;
-    line-height: 40px;
     height: 40px;
+    line-height: 40px;
     text-align: center;
     font-size: 20px;
     cursor: pointer;
-    color: #fff;
+    color: #FFF;
     background: $darker-blue;
-	border:1px solid $darker-blue;
-	border-radius:50%;
-	-webkit-transition: .5s; 
-	-moz-transition:.5s; 
-	-ms-transition:.5s; 
-	-o-transition:.5s;
-    transition: .5s;
-	z-index: 2;
+  	border-radius:50%;
+  	-webkit-transition: .2s;
+  	   -moz-transition: .2s;
+        -ms-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+  	z-index: 2;
+  	&:hover {
+      background: $dark-pink;
+    }
+    i {
+      position:relative;
+      bottom: 2px;
+    }
+  }
 }
-#scroll-Top  .return-to-top:hover {
-  background: $light-blue;
-  color: #fff;
-	border:1px solid $light-blue;
-}
-
-#scroll-Top  .return-to-top i{
-    position:relative;
-    bottom:0;
-
-}
-
-#scroll-Top  .return-to-top i{
-    position: relative;
+//-------------------------------------------------------------------------------
+// Back Arrow
+//-------------------------------------------------------------------------------
+#back-arrow {
+  position: fixed;
+  background-color: transparent;
+  border: $dark-pink 1px solid;
+  top: 0px;
+  right: 0px;
+  z-index: 88;
+  margin: 30px;
+	-webkit-transition: .2s;
+	   -moz-transition: .2s;
+      -ms-transition: .2s;
+       -o-transition: .2s;
+          transition: .2s;
+  &:hover {
+    background-color: $dark-pink;
+    .icon-bar {
+      background-color: #FFF;
+    }
+  }
+  button {
+    padding: 20px 12px;
+  }
+  .icon-bar {
+    display: block;
+    background-color: $dark-pink;
+    width: 11px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 0px;
+  }
+  span {
+    &.icon-bar {
+      -webkit-transition: all 0.15s;
+      -o-transition: all 0.15s;
+      transition: all 0.15s;
+    }
+    &:nth-child(2) {
+      -webkit-transform: translateY(-2px) rotate(-45deg);
+          -ms-transform: translateY(-2px) rotate(-45deg);
+              transform: translateY(-2px) rotate(-45deg);
+    }
+    &:nth-child(3) {
+      width: 22px;
+    }
+    &:nth-child(4) {
+      -webkit-transform: translateY(2px) rotate(45deg);
+          -ms-transform: translateY(2px) rotate(45deg);
+              transform: translateY(2px) rotate(45deg);
+    }
+  }
 }

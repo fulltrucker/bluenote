@@ -1,0 +1,35 @@
+//-------------------------------------------------------------------------------
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900i');
+
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Color Palette
+$darker-blue: #012878;
+$light-blue: #9ebeff;
+$pink: #ffc3b8;
+$dark-pink: #EE369E;
+$peach: #ffe35f;
+$bright-green: #bcff39;
+$dark-gray: #4A4A4A;
+$light-gray: #a8a8a8;
+
+// Colors
+$light-text: #FFF;
+$dark-text: $dark-gray;
+$color-background: $darker-blue;
+$color-text: #FFFFFF;
+$color-text-link: #EE369E;
+$color-text-link-hover: #FFFFFF;
+$color-icon: #EE369E;
+$color-icon-hover: #FFFFFF;
+
+// Breakpoints
+$bp-smallish: 1200px;
+$bp-tablet: 800px;
+$bp-mobile: 500px;
