@@ -399,9 +399,30 @@ nav.navbar .navbar-toggle:hover {
 // Sections
 //-------------------------------------------------------------------------------
 .section {
+  position: relative;
   min-height: 100vh;
-  padding: 133px 0px 33px 0px;
-  position:relative;
+  .container, .container-fluid {
+    .row {
+      padding-top: 133px;
+      padding-bottom: 33px;
+      @media (max-width: 768px) {
+        padding-top: 133px;
+        padding-bottom: 33px;
+    	}
+    }
+  }
+  .container-fluid {
+    .row {
+      div {
+        padding-left: 0px;
+        padding-right: 0px;
+        @media (max-width: 768px) {
+          padding-left: 15px;
+          padding-right: 15px;
+      	}
+      }
+    }
+  }
 }
 
 //-------------------------------------------------------------------------------

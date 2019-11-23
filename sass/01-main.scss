@@ -1,15 +1,14 @@
 #main {
   background-color: $darker-blue;
-	color: $light-text;
-	
+	color: $light-text;	
 	.throwing-horns {
   	background-image: url('../images/homepage-horns-bw-1660.jpg'); 
-      -webkit-filter: url('#horns-duotone');
-      -moz-filter: url('#horns-duotone');
-      -o-filter: url('#horns-duotone');
-      -ms-filter: url('#horns-duotone');
-      filter: url('#horns-duotone');
-      position: absolute;
+    -webkit-filter: url('#horns-duotone');
+       -moz-filter: url('#horns-duotone');
+         -o-filter: url('#horns-duotone');
+        -ms-filter: url('#horns-duotone');
+            filter: url('#horns-duotone');
+    position: absolute;
   	background-position: right top;
   	background-size: auto 90%;
   	background-repeat: no-repeat;
@@ -17,27 +16,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-
-    	@media (max-width: 1200px) {
-      	background-size: auto 70%;
-    	}
-    	@media (max-width: 768px) {
-      	background-size: contain;
-    	}
+  	@media (max-width: 1200px) {
+    	background-size: auto 70%;
   	}
-
+  	@media (max-width: 768px) {
+    	background-size: contain;
+  	}
+	}
 	.ruckus {
-    //position: absolute;
-    margin-top: 50vh;
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
-    
-    	@media (max-width: 768px) {
-        margin-top: 50%;
-        -ms-transform: inherit;
-        transform: inherit;
-    	}
-
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 50%;
+  	@media (max-width: 768px) {
+      padding-top: 133px;
+      padding-bottom: 33px;
+  	}
   	.bio {
     	p {
       	color: $light-text;
@@ -73,9 +66,7 @@
   		}  
   	}
 	}
-	
 	h1,h2,h3,h4,h5,h6 {
   	color: $light-text;
 	}
-	
 }
