@@ -1,5 +1,5 @@
 <div class="visible-xs-block visible-sm-block">
-  <img data-lazy="[[+tv.pageImage]]" class="img-responsive center-block" title="[[+pagetitle]]" id="[[+alias]]" alt="[[+alias]]" />
+  <img src="[[+tv.pageImage]]" class="img-responsive center-block" title="[[+pagetitle]]" id="[[+alias]]" alt="[[+alias]]" />
 </div>
 [[+content:notempty=`<div>
   <button data-slick-index="[[+idx]]" class="slide-to">
