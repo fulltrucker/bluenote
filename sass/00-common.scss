@@ -347,10 +347,52 @@ nav.navbar .navbar-toggle:hover {
   }
   
   h1 {
+    color: #FFF;
     background: url('../images/rock-horns.svg') center top no-repeat;
     padding-top: 170px;
   }
   
+}
+//-------------------------------------------------------------------------------
+// Sections
+//-------------------------------------------------------------------------------
+.social {
+  margin: 33px 0px;
+	@media (max-width: 768px) {
+  margin-top: 43px;
+  text-align: center;
+	}
+	ul {
+		margin: 0px;
+		margin-top: auto; // sit at bottom of DIV
+		li {
+			display: inline-block;
+      font-size: 31px;
+      margin-right: 23px;
+      @media (max-width: 374px) {
+        font-size: 27px;
+        padding-right: 17px;
+      }
+      &.last {
+        margin-right: 0px;
+      }
+      a {
+        color: $dark-pink;
+      }
+			a:hover {
+				color: $light-text;
+			}
+		}			
+	}
+	&.reverse {
+    text-align: center;
+  	a {
+    	color: #FFF;
+  	}
+  	a:hover {
+    	color: $darker-blue;
+  	}
+	}
 }
 
 //-------------------------------------------------------------------------------

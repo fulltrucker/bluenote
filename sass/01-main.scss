@@ -28,9 +28,9 @@
 
 	.ruckus {
     //position: absolute;
-    margin-top: 40vh;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-top: 50vh;
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
     
     	@media (max-width: 768px) {
         margin-top: 50%;
@@ -72,34 +72,6 @@
     		}
   		}  
   	}
-	}
-
-	.social {
-      	
-		@media (max-width: 768px) {
-      margin-top: 43px;
-      text-align: center;
-		}
-
-  	ul {
-			margin: 0px;
-  		margin-top: auto; // sit at bottom of DIV
-  		
-  		li {
-  			display: inline-block;
-        font-size: 31px;
-        padding-right: 23px;
-   			
-        @media (max-width: 374px) {
-          font-size: 27px;
-          padding-right: 17px;
-        }
-
-  			a:hover {
-  				color: $light-text;
-  			}
-			}			
-  	}  	
 	}
 	
 	h1,h2,h3,h4,h5,h6 {

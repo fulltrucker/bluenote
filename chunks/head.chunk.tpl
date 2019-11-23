@@ -7,10 +7,12 @@
     <meta charset="[[++modx_charset]]">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   
   	<!-- SEO -->
     <title>[[If? &subject=`[[*id]]` &operator=`eq` &operand=`1` &then=`` &else=`[[*longtitle:ifempty=`[[*pagetitle]]`:else=`[[*pagetitle]] [[*longtitle]]`]] - ` ]][[++site_name]]</title>
+    <base href="[[!++site_url]]">
     <meta name="description" content="EvanChute.design is the online home of user experience designer Evan Chute.">
   	<meta name="robots" content="index, follow" />
   	<meta name="referrer" content="always" />

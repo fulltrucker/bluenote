@@ -24,7 +24,7 @@
                   			<i class="fa fa-instagram" aria-hidden="true"></i>
       					</a>
       				</li>
-      				<li>
+      				<li class="last">
       					<a class="icon-social" href="https://twitter.com/fulltrucker" target="_blank">
                   			<i class="fa fa-twitter" aria-hidden="true"></i>
       					</a>
