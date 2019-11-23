@@ -2,6 +2,7 @@
   background-color: #FFF;
   color: $dark-text;
 	.speedy-brothers {
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
   	background-position: center;

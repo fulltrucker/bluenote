@@ -4,6 +4,7 @@
     padding-bottom: 0px;
   }
   .slideshow-container {
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     height: 100vh;
