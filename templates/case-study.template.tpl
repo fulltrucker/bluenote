@@ -1,16 +1,16 @@
 [[$head]]
 
 [[$back-arrow]]
-<section id="case-study">
-  <div class="slideshow-container">
-    <div id="slideshow" class="slideshow">
-    [[If? &subject=`[[*showPageImage]]` &operator=`EQ` &operand=`1` &then=`<div class="slideshow-item text-hide" style="background-image:url('[[*pageImage]]');">[[*pagetitle]] Image</div>` &else=``]]
-[[pdoResources? &idx=`[[*showPageImage]]` &includeTVs =`pageImage` &tpl=`slide-image` &sortby=`menuindex` &sortdir=`asc` ]]
-    </div>
-  </div>
-  <div class="container">
+<section id="case-study" class="section">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-5 col-md-offset-7">
+      <div class="col-md-6 slideshow-container">
+        <div id="slideshow" class="slideshow">
+        [[If? &subject=`[[*showPageImage]]` &operator=`EQ` &operand=`1` &then=`<div class="slideshow-item text-hide" style="background-image:url('[[*pageImage]]');">[[*pagetitle]] Image</div>` &else=``]]
+[[pdoResources? &idx=`[[*showPageImage]]` &includeTVs =`pageImage` &tpl=`slide-image` &sortby=`menuindex` &sortdir=`asc` ]]
+        </div>
+      </div>
+      <div class="col-md-4 col-md-offset-1">
         <div style="margin-bottom: 23px;">
           <h2>[[*pagetitle]]</h2>
           <h1>[[*longtitle]]</h1>
@@ -33,7 +33,7 @@
     </div>
   </div>
 </section>
-[[$scroll-top]]
+[[$footer-copyright]]
 [[$footer-scripts]]
     <script type="text/javascript" src="/assets/bluenote/js/bluenote-slick-case-study.js"></script>
 

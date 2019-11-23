@@ -1,28 +1,28 @@
 #about {
   background-color: #FFF;
   color: $dark-text;
-  
 	.speedy-brothers {
+    position: sticky;
+    top: 0;
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50vw;
     height: 100vh;
+    margin-top: -133px;
+    margin-bottom: -33px;
     @media (max-width: 768px) {
-      display: none;
+      position: relative;
+      top: unset;
+      height: auto;
+      padding: 0px;
+      margin: 0px 15px;
     }
 	}
-	
 	.mobile-speedy-brothers {
-  	img {
-    	display: none;
-    	@media (max-width: 768px) {
-      	display: inherit;
-    	}
+  	display: none;
+  	@media (max-width: 768px) {
+    	display: block;
+    	padding: 0px;
   	}
 	}
-  
 }

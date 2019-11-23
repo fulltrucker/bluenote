@@ -28,8 +28,6 @@
     			<div class="col-md-12 bio">
 [[*content]]
   				</div>
-  			</div>
-  			<div class="row">
       		<div class="col-md-12 social">
 [[$social-icons-list]]
       		</div>
@@ -40,13 +38,14 @@
 
 		<!-- about -->
 		<section id="about" class="section">
-  		<div class="speedy-brothers" style="background-image: url('[[pdoField? &id=`2` &field=`pageImage` ]]')"></div>
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-7 mobile-speedy-brothers">
-  					<img src="[[pdoField? &id=`2` &field=`pageImage` ]]" />
-					</div>
-					<div class="col-md-5">
+      		<div class="col-md-6 speedy-brothers" style="background-image:url('[[pdoField? &id=`2` &field=`pageImage` ]]');">
+  					<div class="mobile-speedy-brothers">
+    					<img src="[[pdoField? &id=`2` &field=`pageImage` ]]" />
+  					</div>
+      		</div>
+					<div class="col-md-4 col-md-offset-1">
 [[pdoField? &id=`2` &field=`content` ]]
 					</div>
 				</div>

@@ -1,11 +1,11 @@
 #case-study {
-  position: relative;
-  padding-bottom: 33px;
+  .row {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .slideshow-container {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 50vw;
     height: 100vh;
     @media (max-width: 768px) {
       display: none;
