@@ -82,7 +82,7 @@
 					</div>
 					<div class="col-md-6 col-md-offset-1 featured-work-wrapper">
             <div id="featured-work" class="slideshow">
-[[pdoResources? &parents=`3` &idx=`1` &includeTVs =`pageImage` &tpl=`case-study-image` &depth=`0` &showHidden=`0` &sortby=`menuindex` &sortdir=`asc` ]]
+[[pdoResources? &parents=`3` &idx=`1` &tvFilters=`featuredWork==1` &includeTVs =`pageImage` &tpl=`case-study-image` &depth=`0` &showHidden=`0` &sortby=`menuindex` &sortdir=`asc` ]]
             </div>
 					</div>
 				</div>

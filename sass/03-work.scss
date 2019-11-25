@@ -26,25 +26,30 @@
       top: unset;
     }
   }
-  //  .slideshow {
-  //    .slideshow-item {
-  //      -webkit-filter: url('#horns-duotone');
-  //         -moz-filter: url('#horns-duotone');
-  //           -o-filter: url('#horns-duotone');
-  //          -ms-filter: url('#horns-duotone');
-  //              filter: url('#horns-duotone');
-  //      -webkit-transition: 1s;
-  //         -moz-transition: 1s;
-  //          -ms-transition: 1s;
-  //           -o-transition: 1s;
-  //              transition: 1s;
-  //    }
-  //    .slideshow-item:hover {
-  //      -webkit-filter: none;
-  //         -moz-filter: none;
-  //           -o-filter: none;
-  //          -ms-filter: none;
-  //              filter: none;
-  //    }
-  //  }
+  .slideshow {
+    .slideshow-item {
+      position: relative;
+      .slideshow-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        color: #FFF;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.2;
+      	-webkit-transition: .2s;
+      	   -moz-transition: .2s;
+            -ms-transition: .2s;
+             -o-transition: .2s;
+                transition: .2s;
+      }
+      &:hover .slideshow-title {
+        color: $dark-pink;
+        line-height: 1.4;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
 }
