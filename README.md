@@ -39,7 +39,7 @@ Free as in Bacon.
 
 ## Changelog
 
-### 1.0
+### 6.6.6
 * Released: November 2019
 
 Initial release
