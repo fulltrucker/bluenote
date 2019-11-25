@@ -33,3 +33,8 @@ $color-icon-hover: #FFFFFF;
 $bp-smallish: 1200px;
 $bp-tablet: 800px;
 $bp-mobile: 500px;
+
+// Gradient Background
+@mixin gradient-bg {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 35%);
+}

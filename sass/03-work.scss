@@ -17,6 +17,15 @@
     width: 100%;
     height: 100%;
   }
+  .featured-work-wrapper {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 133px;
+    @media (max-width: 768px) {
+      position: relative;
+      top: unset;
+    }
+  }
   //  .slideshow {
   //    .slideshow-item {
   //      -webkit-filter: url('#horns-duotone');
