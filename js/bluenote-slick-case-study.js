@@ -9,8 +9,6 @@ $(document).ready(function(){
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        fade: true,
-        cssEase: 'linear',
         responsive: [{
             breakpoint: 769,
             settings: "unslick" // destroys slick

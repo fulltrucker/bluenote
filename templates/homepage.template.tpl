@@ -77,13 +77,13 @@
   		</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
-[[pdoField? &id=`3` &field=`content` ]]
-					</div>
-					<div class="col-md-6 col-md-offset-1 featured-work-wrapper">
+					<div class="col-md-6 col-md-push-6 featured-work-wrapper">
             <div id="featured-work" class="slideshow">
 [[pdoResources? &parents=`3` &idx=`1` &tvFilters=`featuredWork==1` &includeTVs =`pageImage` &tpl=`case-study-image` &depth=`0` &showHidden=`0` &sortby=`menuindex` &sortdir=`asc` ]]
             </div>
+					</div>
+					<div class="col-md-5 col-md-pull-6">
+[[pdoField? &id=`3` &field=`content` ]]
 					</div>
 				</div>
 			</div>

@@ -7,11 +7,7 @@ $(document).ready(function(){
         infinite: false,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [{
-            breakpoint: 769,
-            settings: "unslick" // destroys slick
-          }]
+        slidesToScroll: 1
     });
 
 });
