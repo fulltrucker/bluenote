@@ -46,6 +46,7 @@
   					</div>
       		</div>
 					<div class="col-md-4 col-md-offset-1">
+      			<div class="spacer"></div>
 [[pdoField? &id=`2` &field=`content` ]]
 					</div>
 				</div>
@@ -76,6 +77,7 @@
         </svg>
   		</div>
 			<div class="container">
+  			<div class="spacer"></div>
 				<div class="row">
 					<div class="col-md-6 col-md-push-6 featured-work-wrapper">
             <div id="featured-work" class="slideshow">
@@ -93,6 +95,7 @@
 		<!-- contact -->
 		<section id="contact" class="section">
 			<div class="container">
+  			<div class="spacer"></div>
 				<div class="row">
 					<div class="col-sm-5">
         		<svg width="900" height="900" viewBox="0 0 900 900" class="duotone-filters" xmlns="http://www.w3.org/2000/svg">

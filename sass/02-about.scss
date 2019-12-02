@@ -1,6 +1,9 @@
 #about {
   background-color: #FFF;
   color: $dark-text;
+  .spacer {
+    background-color: #FFF;
+  }
 	.speedy-brothers {
     position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -9,7 +12,7 @@
   	background-repeat: no-repeat;
   	background-size: cover;
     height: 100vh;
-    margin-top: -133px;
+    margin-top: -33px;
     margin-bottom: -33px;
     @media (max-width: 768px) {
       position: relative;

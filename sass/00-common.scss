@@ -403,12 +403,8 @@ nav.navbar .navbar-toggle:hover {
   min-height: 100vh;
   .container, .container-fluid {
     .row {
-      padding-top: 133px;
+      padding-top: 33px;
       padding-bottom: 33px;
-      @media (max-width: 768px) {
-        padding-top: 133px;
-        padding-bottom: 33px;
-    	}
     }
   }
   .container-fluid {
@@ -423,6 +419,16 @@ nav.navbar .navbar-toggle:hover {
       }
     }
   }
+}
+.spacer {
+  height: 100px;
+  background-color: $darker-blue;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  z-index: 88;
 }
 
 //-------------------------------------------------------------------------------
