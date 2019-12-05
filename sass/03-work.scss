@@ -1,6 +1,8 @@
 #work {
   background-color: $peach;
-  //  color: $darker-blue;
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
   #lawnmower {
   	background-image: url('../images/david-lawnmower.jpg'); 
     -webkit-filter: url('#lawnmower-duotone');
@@ -8,16 +10,14 @@
          -o-filter: url('#lawnmower-duotone');
         -ms-filter: url('#lawnmower-duotone');
             filter: url('#lawnmower-duotone');
-    position: absolute;
   	background-position: left bottom;
-  	background-size: contain;
+  	background-size: 100%;
   	background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  	background-attachment: fixed;
+    flex: 1 1 auto;
     @media (max-width: 768px) {
       background-size: 150%;
+      height: 250px;
     }
     @media (max-width: 425px) {
       background-size: 200%;
@@ -26,21 +26,15 @@
   .spacer {
     background-color: $peach;
   }
-  .row {
-    padding-bottom: 133px;
-    @media (max-width: 768px) {
-        padding-bottom: 233px;
-    }
-  }
-  .featured-work-wrapper {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 133px;
-    @media (max-width: 768px) {
-      position: relative;
-      top: unset;
-    }
-  }
+//  .featured-work-wrapper {
+//    position: -webkit-sticky; /* Safari */
+//    position: sticky;
+//    top: 133px;
+//    @media (max-width: 768px) {
+//      position: relative;
+//      top: unset;
+//    }
+//  }
   .slideshow {
     .slideshow-item {
       position: relative;
