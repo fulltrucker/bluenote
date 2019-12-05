@@ -36,8 +36,8 @@
 		</section>
 		<!-- /main -->
 
-		<!-- about -->
-		<section id="about" class="section">
+		<!-- process -->
+		<section id="process" class="section">
 			<div class="container-fluid">
 				<div class="row">
       		<div class="col-md-6 speedy-brothers" style="background-image:url('[[pdoField? &id=`2` &field=`pageImage` ]]');">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- /about -->
+		<!-- /process -->
 
 		<!-- work -->
 		<section id="work" class="section">
