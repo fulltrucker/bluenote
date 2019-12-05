@@ -1,6 +1,6 @@
       			<ul>
       				<li>
-      					<a class="icon-social" href="mailto:hello@evanchute.com" target="_blank">
+      					<a class="icon-social" href="mailto:design@evanchute.com" target="_blank">
                   			<i class="fa fa-envelope-o" aria-hidden="true"></i>
       					</a>
       				</li>
