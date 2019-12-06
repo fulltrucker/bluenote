@@ -40,7 +40,7 @@
 			            <div class="collapse navbar-collapse" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 			                    <li><a href="#main" class="smooth-menu">main</a></li>
-			                    <li><a href="#process" class="smooth-menu">process</a></li>
+			                    <li><a href="#approach" class="smooth-menu">approach</a></li>
 			                    <li><a href="#work" class="smooth-menu">work</a></li>
 			                    <li><a href="#contact" class="smooth-menu">contact</a></li>
 			                </ul>
