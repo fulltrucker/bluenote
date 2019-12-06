@@ -167,6 +167,10 @@ nav.navbar ul.nav > li > a {
 	margin: 27px 0px 27px 27px;
 	border: 1px solid transparent;
 	background-color: transparent;
+	@media screen and (max-width:1199px) {
+  	padding: 12px 15px 11px 15px;
+  	margin: 27px 0px 27px 17px;
+	}
 }
 
 nav.navbar ul.nav > li.active > a {
@@ -178,7 +182,7 @@ nav.navbar ul.nav > li.active > a {
   	border: 1px solid $dark-pink;
   	background-color: transparent;
 	}
-	@media screen and (max-width:992px) {
+	@media screen and (max-width: 991px) {
     color: $dark-pink;
   	border: 1px solid transparent;
 	}
@@ -192,7 +196,7 @@ nav.navbar ul.nav > li.active > a:hover {
 
 .sticky-wrapper.is-sticky nav.navbar ul.nav > li > a {
 	color: $dark-text;
-	@media screen and (max-width:992px) {
+	@media screen and (max-width: 991px) {
   	color: $light-text;
 	}
 }
@@ -203,7 +207,7 @@ nav.navbar ul.nav > li.active > a:hover {
 	border: 1px solid $dark-pink;
 	background-color: transparent;
 	
-	@media screen and (max-width:992px) {
+	@media screen and (max-width: 991px) {
     color: $dark-pink;
   	border: 1px solid transparent;
 	}
@@ -273,20 +277,9 @@ nav.navbar .navbar-toggle:hover {
 }
 
 //-------------------------------------------------------------------------------
-// Random Breakpoint
-//-------------------------------------------------------------------------------
-@media screen and (max-width:1008px) {
-  .navbar .container {
-    padding: 0px;
-    margin: 0px;
-    // width: 100%;
-  }
-}
-
-//-------------------------------------------------------------------------------
 // Small Screens
 //-------------------------------------------------------------------------------
-@media screen and (max-width:769px) {
+@media screen and (max-width: 991px) {
   .navbar-header {
     padding-left: 30px;
     padding-right: 30px;
@@ -300,23 +293,26 @@ nav.navbar .navbar-toggle:hover {
   }
   .navbar-collapse {
     background: $darker-blue;
-  }
-  .navbar-default .navbar-collapse {
     border: none;
     text-align: center;
     position: relative;
     top: -100px;
     padding-top: 100px;
-    height: 100vh;
-    margin-right: -20px;
+    &.collapse {
+      display: none!important;
+      border: none;
+      height: 100vh !important;
+      &.in {
+        display: block !important;
+        overflow-y: auto !important;
+      }
+    }
   }
-  .navbar-collapse.collapse {
-    display: none!important;
-    border: none;
-  }
-  .navbar-collapse.collapse.in {
-    display: block !important;
-    overflow-y: auto !important;
+  .container > .navbar-collapse {
+    margin-right: -150px;
+    margin-left: -150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 	.navbar-toggle {
   	display: block; 
@@ -544,7 +540,7 @@ nav.navbar .navbar-toggle:hover {
 //-------------------------------------------------------------------------------
 #back-arrow {
   position: fixed;
-  background-color: transparent;
+  background-color: #FFF;
   border: $dark-pink 1px solid;
   top: 0px;
   right: 0px;

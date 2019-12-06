@@ -40,12 +40,12 @@
 		<section id="approach" class="section">
 			<div class="container-fluid">
 				<div class="row">
-      		<div class="col-md-6 speedy-brothers" style="background-image:url('[[pdoField? &id=`2` &field=`pageImage` ]]');">
+      		<div class="col-sm-6 speedy-brothers" style="background-image:url('[[pdoField? &id=`2` &field=`pageImage` ]]');">
   					<div class="mobile-speedy-brothers">
     					<img src="[[pdoField? &id=`2` &field=`pageImage` ]]" />
   					</div>
       		</div>
-					<div class="col-md-4 col-md-offset-1">
+					<div class="col-sm-4 col-sm-offset-1">
       			<div class="spacer"></div>
 [[pdoField? &id=`2` &field=`content` ]]
 					</div>

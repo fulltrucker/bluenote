@@ -3,6 +3,9 @@
   color: $dark-text;
   .spacer {
     background-color: #FFF;
+  	@media (max-width: 768px) {
+    	display: none;
+  	}
   }
 	.speedy-brothers {
     position: -webkit-sticky; /* Safari */
@@ -19,7 +22,7 @@
       top: unset;
       height: auto;
       padding: 0px;
-      margin: 0px 15px;
+      margin: 100px 15px 0px 15px;
     }
 	}
 	.mobile-speedy-brothers {
