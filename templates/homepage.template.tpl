@@ -69,26 +69,7 @@
 					</div>
 				</div>
 			</div>
-  		<div id="lawnmower">
-    		<svg width="0" height="0" class="duotone-filters" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <filter id="lawnmower-duotone">
-              <feColorMatrix type="matrix" result="grayscale"
-                values="1 0 0 0 0
-                        1 0 0 0 0
-                        1 0 0 0 0
-                        0 0 0 1 0" >
-              </feColorMatrix>
-              <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
-                <feFuncR type="table" tableValues="0.93333333333333 1"></feFuncR>
-                <feFuncG type="table" tableValues="0.21176470588235 0.89019607843137"></feFuncG>
-                <feFuncB type="table" tableValues="0.61960784313725 0.37254901960784"></feFuncB>
-                <feFuncA type="table" tableValues="0 1"></feFuncA>
-              </feComponentTransfer>
-            </filter>
-          </defs>
-        </svg>
-  		</div>
+  		<div id="lawnmower"></div>
 		</section>
 		<!-- /work -->
 

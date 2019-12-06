@@ -5,13 +5,13 @@
   min-height: 100%;
   #lawnmower {
   	background-image: url('../images/david-lawnmower.jpg'); 
-    -webkit-filter: url('#lawnmower-duotone');
-       -moz-filter: url('#lawnmower-duotone');
-         -o-filter: url('#lawnmower-duotone');
-        -ms-filter: url('#lawnmower-duotone');
-            filter: url('#lawnmower-duotone');
+//    -webkit-filter: url('#lawnmower-duotone');
+//       -moz-filter: url('#lawnmower-duotone');
+//         -o-filter: url('#lawnmower-duotone');
+//        -ms-filter: url('#lawnmower-duotone');
+//            filter: url('#lawnmower-duotone');
   	background-position: left bottom;
-  	background-size: 100%;
+  	background-size: contain;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
     flex: 1 1 auto;
