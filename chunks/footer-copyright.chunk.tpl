@@ -9,5 +9,5 @@
 [[$social-icons-list]]
         </div>
       </div>
-[[$scroll-top]]    </footer>
+    </footer>
 		<!-- /footer-copyright -->
