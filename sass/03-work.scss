@@ -59,6 +59,17 @@
         line-height: 1.4;
         letter-spacing: 1.5px;
       }
+      .big-pink-button {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: smaller;
+      }
+      &:hover .big-pink-button {
+        color: #FFF;
+        background: $dark-pink;
+      }
     }
   }
 }
