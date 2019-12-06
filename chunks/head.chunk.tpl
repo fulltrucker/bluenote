@@ -13,18 +13,18 @@
   	<!-- SEO -->
     <title>[[If? &subject=`[[*id]]` &operator=`eq` &operand=`1` &then=`` &else=`[[*longtitle:ifempty=`[[*pagetitle]]`:else=`[[*pagetitle]] [[*longtitle]]`]] - ` ]][[++site_name]]</title>
     <base href="[[!++site_url]]">
-    <meta name="description" content="EvanChute.design is the online home of user experience designer Evan Chute.">
+    <meta name="description" content="Delivering innovative, concept-driven, creative solutions to complex design challenges for both agency and direct enterprise clients. Designing above the fold since 1988.">
   	<meta name="robots" content="index, follow" />
   	<meta name="referrer" content="always" />
   
   	<!-- Social & Open Graph -->
   	<meta property="og:title" content="EvanChute.design" />
-  	<meta property="og:description" content="EvanChute.design is the online home of user experience designer Evan Chute." />
+  	<meta property="og:description" content="Delivering innovative, concept-driven, creative solutions to complex design challenges for both agency and direct enterprise clients. Designing above the fold since 1988." />
   	<meta property="og:image" content="http://www.evanchute.design/assets/images/social.jpg"> <!-- include your hosted image full URL -->
   	<meta property="og:url" content="http://www.evanchute.design/" />
   	<meta property="og:type" content="portfolio" />
   	<meta name="twitter:title" content="EvanChute.design" >
-  	<meta name="twitter:description" content="EvanChute.design is the online home of user experience designer Evan Chute." />
+  	<meta name="twitter:description" content="Delivering innovative, concept-driven, creative solutions to complex design challenges for both agency and direct enterprise clients. Designing above the fold since 1988." />
   	<meta name="twitter:image" content="http://www.evanchute.design/assets/images/social.jpg" /> <!-- include your hosted image full URL -->
   	<meta name="twitter:card" content="summary_large_image" />
   	<meta name="twitter:site" content="@fulltrucker" />
