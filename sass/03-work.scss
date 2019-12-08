@@ -1,6 +1,6 @@
 #work {
   background-color: $peach;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     display: flex;
     flex-flow: column;
     min-height: 100%;
@@ -16,7 +16,7 @@
   	background-size: contain;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       flex: 1 1 auto;
     }
     @media screen and (max-width: 991px) {
