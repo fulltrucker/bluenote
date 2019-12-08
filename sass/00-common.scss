@@ -120,7 +120,7 @@ nav.navbar.no-background {
   -o-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
       background-color: transparent;
       border: none;
   }
@@ -354,7 +354,7 @@ nav.navbar .navbar-toggle:hover {
 //-------------------------------------------------------------------------------
 .social {
   margin: 33px 0px;
-	@media (max-width: 768px) {
+	@media screen and (max-width: 767px) {
   margin-top: 43px;
   text-align: center;
 	}
@@ -365,7 +365,7 @@ nav.navbar .navbar-toggle:hover {
 			display: inline-block;
       font-size: 31px;
       margin-right: 23px;
-      @media (max-width: 374px) {
+      @media screen and (max-width: 374px) {
         font-size: 27px;
         padding-right: 17px;
       }
@@ -408,7 +408,7 @@ nav.navbar .navbar-toggle:hover {
       div {
         padding-left: 0px;
         padding-right: 0px;
-        @media (max-width: 768px) {
+        @media screen and (max-width: 767px) {
           padding-left: 15px;
           padding-right: 15px;
       	}

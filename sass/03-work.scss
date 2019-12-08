@@ -1,8 +1,10 @@
 #work {
   background-color: $peach;
-  display: flex;
-  flex-flow: column;
-  min-height: 100%;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+  }
   #lawnmower {
   	background-image: url('../images/david-lawnmower.jpg'); 
 //    -webkit-filter: url('#lawnmower-duotone');
@@ -14,12 +16,14 @@
   	background-size: contain;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
-    flex: 1 1 auto;
-    @media (max-width: 991px) {
+    @media screen and (min-width: 768px) {
+      flex: 1 1 auto;
+    }
+    @media screen and (max-width: 991px) {
       background-size: 150%;
       height: 250px;
     }
-    @media (max-width: 425px) {
+    @media screen and (max-width: 425px) {
       background-size: 200%;
     }
   }
@@ -30,7 +34,7 @@
 //    position: -webkit-sticky; /* Safari */
 //    position: sticky;
 //    top: 133px;
-//    @media (max-width: 768px) {
+//    @media screen and (max-width: 767px) {
 //      position: relative;
 //      top: unset;
 //    }

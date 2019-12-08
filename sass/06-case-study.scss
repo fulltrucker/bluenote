@@ -2,7 +2,7 @@
   .row {
     padding-top: 0px;
     padding-bottom: 0px;
-    @media (max-width: 991px) {
+    @media screen and (max-width: 991px) {
       div {
         padding-left: 15px;
         padding-right: 15px;
@@ -14,7 +14,7 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    @media (max-width: 991px) {
+    @media screen and (max-width: 991px) {
       display: none;
     }
     #slideshow {
@@ -40,7 +40,7 @@
     &:hover {
       color: $darker-blue;
     }
-    @media (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       display: none;
     }
     i {

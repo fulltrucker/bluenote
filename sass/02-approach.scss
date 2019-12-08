@@ -3,7 +3,7 @@
   color: $dark-text;
   .spacer {
     background-color: #FFF;
-  	@media (max-width: 768px) {
+  	@media screen and (max-width: 767px) {
     	display: none;
   	}
   }
@@ -17,7 +17,7 @@
     height: 100vh;
     margin-top: -33px;
     margin-bottom: -33px;
-    @media (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       position: relative;
       top: unset;
       height: auto;
@@ -27,7 +27,7 @@
 	}
 	.mobile-speedy-brothers {
   	display: none;
-  	@media (max-width: 768px) {
+  	@media screen and (max-width: 767px) {
     	display: block;
     	padding: 0px;
   	}
